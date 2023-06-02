@@ -1,5 +1,5 @@
 .container {
-  max-width: 1400px !important;
+  max-width: 90% !important;
 }
 
 .up-navbar-sections {
@@ -158,29 +158,26 @@
   font-family: Alex Brush;
   src: url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 }
+#arrivals .arrivals-content {
+  position: relative;
+  top: 60px;
+}
 #arrivals .arrivals-content h4 {
   font-family: "Alex Brush", cursive;
   font-size: 45px;
   font-weight: 400;
-  position: relative;
-  top: 40px;
   text-align: center;
 }
 #arrivals .arrivals-content h2 {
   font-size: 45px;
-  position: relative;
-  top: 35px;
   text-align: center;
   font-family: "Crimson Text";
 }
 #arrivals .arrivals-content .arrival-img {
   text-align: center;
-  position: relative;
-  top: 35px;
 }
 #arrivals .arrivals-content .arrival-img img {
   width: 11%;
-  height: 30px;
 }
 
 #products-slider {
@@ -339,36 +336,29 @@
 
 #blog {
   position: relative;
-  top: 100px;
+  top: 160px;
 }
 #blog .blog-header-content h4 {
   font-family: "Alex Brush", cursive;
   font-size: 45px;
   font-weight: 400;
-  position: relative;
-  top: 40px;
   text-align: center;
 }
 #blog .blog-header-content h2 {
   font-size: 40px;
-  position: relative;
-  top: 35px;
   text-align: center;
   font-family: "Crimson Text";
 }
 #blog .blog-header-content .blog-header-logo {
   text-align: center;
-  position: relative;
-  top: 35px;
 }
 #blog .blog-header-content .blog-header-logo img {
-  width: 150px;
-  height: 30px;
+  width: 11%;
 }
 
 #blogs {
   position: relative;
-  top: 160px;
+  top: 180px;
   padding: 0 7% 0 7%;
 }
 #blogs .blog-date {
@@ -401,7 +391,7 @@
 }
 
 #gift {
-  margin-top: 17%;
+  margin-top: 19%;
 }
 #gift .gift-img {
   padding: 5% 0 5% 0;
@@ -420,6 +410,10 @@
   top: 70%;
 }
 
+#our-team {
+  position: relative;
+  top: 60px;
+}
 #our-team .team-img {
   display: flex;
   justify-content: center;
@@ -443,6 +437,8 @@
 #team-member {
   padding: 0 7% 0 7%;
   position: relative;
+  top: 55px;
+  height: 340px;
 }
 #team-member .members {
   position: absolute;
@@ -488,10 +484,6 @@
   background-color: rgba(255, 255, 255, 0.9215686275);
 }
 
-#advertising {
-  position: relative;
-  top: 285px;
-}
 #advertising .adverb-img {
   display: flex;
   align-items: baseline;
@@ -506,4 +498,84 @@
 #advertising .adverb-img .adverb-content h4 {
   font-family: serif;
   font-weight: 500;
+}
+
+#decor {
+  position: relative;
+  top: 60px;
+}
+#decor .decor-header-content h4 {
+  font-family: "Alex Brush", cursive;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+#decor .decor-header-content h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Crimson Text";
+}
+#decor .decor-header-content .decor-header-logo {
+  text-align: center;
+}
+#decor .decor-header-content .decor-header-logo img {
+  width: 11%;
+}
+
+#decors {
+  position: relative;
+  top: 80px;
+}
+#decors .single-decor {
+  padding-top: 8%;
+}
+#decors .single-decor .decor-imgs {
+  position: relative;
+}
+#decors .single-decor .decor-imgs .decor-hover-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.7s;
+  opacity: 0;
+}
+#decors .single-decor:hover .decor-hover-img {
+  opacity: 1;
+}
+
+#news-letter {
+  position: relative;
+  top: 190px;
+}
+#news-letter .news-letter-content .newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15%;
+  color: white;
+}
+#news-letter .news-letter-content .newsletter h4 {
+  font-family: "Alex Brush";
+  font-size: 60px;
+}
+#news-letter .news-letter-content .newsletter p {
+  font-family: inherit;
+  font-size: 19px;
+}
+#news-letter .news-letter-content .subscribe {
+  padding-top: 20%;
+}
+#news-letter .news-letter-content .subscribe .subscribe-btn {
+  margin-top: 30px;
+}
+#news-letter .news-letter-content .subscribe .email-input input {
+  height: 60px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+#news-letter .news-letter-content .subscribe .email-input input ::-moz-placeholder {
+  color: red !important;
+}
+#news-letter .news-letter-content .subscribe .email-input input ::placeholder {
+  color: red !important;
 }/*# sourceMappingURL=style.css.map */
