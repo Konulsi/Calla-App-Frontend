@@ -544,14 +544,13 @@
 }
 
 #news-letter {
-  position: relative;
-  top: 190px;
+  margin-top: 12%;
 }
 #news-letter .news-letter-content .newsletter {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 15%;
+  padding: 10%;
   color: white;
 }
 #news-letter .news-letter-content .newsletter h4 {
@@ -563,19 +562,88 @@
   font-size: 19px;
 }
 #news-letter .news-letter-content .subscribe {
-  padding-top: 20%;
+  padding-top: 14%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
-#news-letter .news-letter-content .subscribe .subscribe-btn {
-  margin-top: 30px;
+#news-letter .news-letter-content .subscribe .subscribe-btn input {
+  height: 60px;
+  width: 130px;
 }
 #news-letter .news-letter-content .subscribe .email-input input {
+  padding: 20px !important;
   height: 60px;
+  width: 350px;
   border: 2px solid white;
   background-color: transparent;
 }
-#news-letter .news-letter-content .subscribe .email-input input ::-moz-placeholder {
-  color: red !important;
+
+#footer {
+  background-color: #2C2C2C;
+  margin-top: 7%;
 }
-#news-letter .news-letter-content .subscribe .email-input input ::placeholder {
-  color: red !important;
+#footer .footer-first-list {
+  padding: 20% 0 30% 0;
+}
+#footer .footer-first-list .footer-logo {
+  padding: 5%;
+}
+#footer .footer-first-list .footer-text {
+  padding: 5%;
+  color: #909090;
+}
+#footer .footer-first-list .footer-payment-img {
+  padding: 5%;
+}
+#footer .footer-second-list {
+  padding: 20% 0 30% 0;
+}
+#footer .footer-second-list .quick-links {
+  padding: 5%;
+  color: white;
+  font-family: serif;
+}
+#footer .footer-second-list .quick-link-list ul {
+  list-style: none;
+  padding-left: 1rem !important;
+}
+#footer .footer-second-list .quick-link-list ul li {
+  padding-top: 3%;
+}
+#footer .footer-second-list .quick-link-list ul a {
+  color: #909090;
+  text-decoration: none;
+}
+#footer .footer-second-list .footer-text {
+  padding: 5%;
+  color: #909090;
+}
+#footer .footer-second-list .footer-payment-img {
+  padding-left: 5%;
+}
+#footer .footer-third-list {
+  padding: 21% 0 30% 0;
+}
+#footer .footer-third-list .find-store {
+  padding: 4%;
+  color: white;
+  font-family: serif;
+}
+#footer .footer-third-list .store-list ul {
+  list-style: none;
+  padding-left: 0rem !important;
+}
+#footer .footer-third-list .store-list ul li {
+  padding: 2%;
+}
+#footer .footer-third-list .store-list ul a {
+  color: #909090;
+  text-decoration: none;
+  margin-left: 10px;
+}
+#footer .footer-third-list .store-list ul .social {
+  display: flex;
+  justify-content: revert;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

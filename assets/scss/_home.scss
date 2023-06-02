@@ -719,8 +719,7 @@
 
 
 #news-letter {
-    position: relative;
-    top: 190px;
+    margin-top: 12%;
 
     .news-letter-content {
 
@@ -729,7 +728,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 15%;
+            padding: 10%;
             color: white;
 
             h4 {
@@ -744,25 +743,118 @@
         }
 
         .subscribe {
-            padding-top: 20%;
+            padding-top: 14%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: baseline;
 
             .subscribe-btn {
-                margin-top: 30px;
+                input {
+                    height: 60px;
+                    width: 130px;
+                }
             }
 
             .email-input {
                 input {
+                    padding: 20px !important;
                     height: 60px;
+                    width: 350px;
                     border: 2px solid white;
                     background-color: transparent;
 
-                    ::placeholder {
-                        color: red !important;
-                    }
+                    // ::placeholder {
+                    //     color: red !important;
+                    // }
                 }
 
             }
         }
     }
 
+}
+
+#footer {
+    background-color: #2C2C2C;
+    margin-top: 7%;
+
+    .footer-first-list {
+        padding: 20% 0 30% 0;
+
+        .footer-logo {
+            padding: 5%;
+        }
+
+        .footer-text {
+            padding: 5%;
+            color: #909090;
+        }
+
+        .footer-payment-img {
+            padding: 5%;
+        }
+    }
+
+    .footer-second-list {
+        padding: 20% 0 30% 0;
+
+        .quick-links {
+            padding: 5%;
+            color: white;
+            font-family: serif;
+        }
+
+        .quick-link-list {
+            ul {
+                list-style: none;
+                padding-left: 1rem !important;
+                li{
+                    padding-top: 3%;
+                }
+                a {
+                    color: #909090;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .footer-text {
+            padding: 5%;
+            color: #909090;
+        }
+
+        .footer-payment-img {
+            padding-left: 5%;
+        }
+    }
+
+    .footer-third-list{
+        padding: 21% 0 30% 0;
+        .find-store{
+            padding: 4%;
+            color: white;
+            font-family: serif;
+        }
+        .store-list{
+            ul {
+                list-style: none;
+                padding-left: 0rem !important;
+
+                li{
+                    padding: 2%;
+                }
+                a {
+                    color: #909090;
+                    text-decoration: none;
+                    margin-left: 10px;
+                }
+
+                .social{
+                    display: flex;
+                    justify-content: revert;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }
