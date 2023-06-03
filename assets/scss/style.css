@@ -15,6 +15,75 @@
     line-height: 7px !important;
     top: 54% !important;
   }
+  #arrivals .arrivals-content {
+    top: 0px !important;
+  }
+  #arrivals .arrivals-content h4 {
+    font-size: 35px !important;
+  }
+  #arrivals .arrivals-content h2 {
+    font-size: 28px !important;
+  }
+  #arrivals .arrivals-content .arrival-img img {
+    width: 32% !important;
+  }
+  #products-slider {
+    top: 0px !important;
+  }
+  #products-slider .slick-dots {
+    display: none !important;
+  }
+  #banner {
+    top: 0px !important;
+  }
+  #banner .first-bnr-img-text1 {
+    position: relative !important;
+    top: 90px !important;
+    font-size: 40p !important;
+    left: 37px !important;
+  }
+  #banner .first-bnr-img-text2 {
+    top: 20% !important;
+    margin-left: 11% !important;
+  }
+  #banner .second-bnr-img-text1 {
+    top: 40% !important;
+    right: 30% !important;
+  }
+  #banner .bnr-img-logo {
+    position: absolute !important;
+    bottom: 55% !important;
+    right: 38% !important;
+    width: 25% !important;
+  }
+  #banner span {
+    bottom: 51% !important;
+    right: 42% !important;
+  }
+  #banner .last-bnr-img-text1 {
+    top: 82% !important;
+    left: 20% !important;
+  }
+  #banner .last-bnr-img-text2 {
+    top: 85%;
+    left: 20%;
+  }
+  #blog {
+    top: 0px !important;
+  }
+  #blog .blog-header-content h4 {
+    font-size: 40px !important;
+  }
+  #blog .blog-header-content h2 {
+    font-size: 30px !important;
+  }
+  #blog .blog-header-content .blog-header-logo img {
+    width: 40% !important;
+  }
+  #blogs {
+    top: 0px !important;
+    padding: 0 0 0 0 !important;
+  }
 }
 .container {
   max-width: 90% !important;

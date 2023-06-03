@@ -1,16 +1,18 @@
-@media (min-width:0)and (max-width:850px){
-    .logo img{
+@media (min-width:0)and (max-width:850px) {
+    .logo img {
         width: 30% !important;
     }
-    #slider{
+
+    #slider {
         margin-top: 50px;
 
-        .swiper-wrapper{
-            h1{
+        .swiper-wrapper {
+            h1 {
                 top: 35%;
                 font-size: 14px;
             }
-            .slider-text{
+
+            .slider-text {
                 width: 34% !important;
                 font-size: 6px !important;
                 line-height: 7px !important;
@@ -22,12 +24,99 @@
 
     }
 
+    #arrivals {
+        .arrivals-content {
+            top: 0px !important;
 
+            h4 {
+                font-size: 35px !important;
+            }
+
+            h2 {
+                font-size: 28px !important;
+            }
+
+            .arrival-img img {
+                width: 32% !important;
+            }
+        }
+    }
+
+    #products-slider {
+        top: 0px !important;
+
+        .slick-dots {
+            display: none !important;
+        }
+    }
+
+    #banner {
+        top: 0px !important;
+
+        .first-bnr-img-text1 {
+            position: relative !important;
+            top: 90px !important;
+            font-size: 40p !important;
+            left: 37px !important;
+        }
+
+        .first-bnr-img-text2 {
+            top: 20% !important;
+            margin-left: 11% !important;
+        }
+
+        .second-bnr-img-text1 {
+            top: 40% !important;
+            right: 30% !important;
+        }
+
+        .bnr-img-logo {
+            position: absolute !important;
+            bottom: 55% !important;
+            right: 38% !important;
+            width: 25% !important;
+        }
+
+        span {
+            bottom: 51% !important;
+            right: 42% !important;
+        }
+
+        .last-bnr-img-text1 {
+            top: 82% !important;
+            left: 20% !important;
+        }
+
+        .last-bnr-img-text2 {
+            top: 85%;
+            left: 20%;
+        }
+    }
+
+    #blog{
+        top: 0px !important;
+        .blog-header-content{
+            h4{
+                font-size: 40px !important;
+
+            }
+            h2{
+                font-size: 30px !important;
+            }
+
+            .blog-header-logo img{
+                width: 40% !important;
+            }
+        }
+    }
+
+    #blogs{
+        top: 0px !important;
+        padding: 0 0 0 0 !important;
+    }
 
 }
 
 
 
-@media (min-width:850)and (max-width:1200px){
-    
-}
+@media (min-width:850)and (max-width:1200px) {}
