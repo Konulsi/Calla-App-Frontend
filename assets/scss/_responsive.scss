@@ -1,0 +1,33 @@
+@media (min-width:0)and (max-width:850px){
+    .logo img{
+        width: 30% !important;
+    }
+    #slider{
+        margin-top: 50px;
+
+        .swiper-wrapper{
+            h1{
+                top: 35%;
+                font-size: 14px;
+            }
+            .slider-text{
+                width: 34% !important;
+                font-size: 6px !important;
+                line-height: 7px !important;
+                top: 54% !important;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
+
+@media (min-width:850)and (max-width:1200px){
+    
+}
