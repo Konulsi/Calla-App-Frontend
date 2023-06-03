@@ -58,14 +58,6 @@ $(document).ready(function(){
 
 
 
-    //   $(".product-card").on("mouseover",function(){
-    //     $(".product-img-hover").removeClass("d-none");
-
-    //   })
-    //   $(".product-card").on("mouseout",function(){
-    //     $(".product-img-hover").addClass("d-none");
-
-    //   })
 })
    
 
