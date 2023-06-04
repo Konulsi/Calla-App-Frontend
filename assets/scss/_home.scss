@@ -676,17 +676,10 @@
             line-height: 1.275em;
         }
     }
-}
-
-#team-member {
-    padding: 0 7% 0 7%;
-    position: relative;
-    top: 55px;
-    height: 340px;
 
     .members {
         position: absolute;
-        top: -130px;
+        top: 310px;
         left: 8%;
         right: 8%;
 
@@ -694,11 +687,11 @@
         .single-member {
 
             .member-img-hover {
-                height: 100%;
+                height: 92%;
                 border: 2px solid #e1a385;
                 position: absolute;
-                top: 0px;
-                width: 24%;
+                top: 16px;
+                width: 23.6%;
                 text-align: center;
                 opacity: 0;
                 transition: 1s;
@@ -751,11 +744,86 @@
 
     }
 
-
 }
 
-#advertising {
+// #team-member {
+//     padding: 0 7% 0 7%;
+//     position: relative;
+//     top: 55px;
+//     height: 340px;
 
+//     .members {
+//         position: absolute;
+//         top: -130px;
+//         left: 8%;
+//         right: 8%;
+
+
+//         .single-member {
+
+//             .member-img-hover {
+//                 height: 100%;
+//                 border: 2px solid #e1a385;
+//                 position: absolute;
+//                 top: 0px;
+//                 width: 24%;
+//                 text-align: center;
+//                 opacity: 0;
+//                 transition: 1s;
+
+//                 .member-detail {
+//                     position: absolute;
+//                     top: 35%;
+//                     left: 15%;
+
+//                     .member-name {
+//                         h5 {
+//                             font-size: 30px;
+//                             font-family: serif;
+//                         }
+
+//                     }
+
+//                     .member-position {
+//                         color: #474141f2;
+//                         font-size: 17px;
+//                     }
+
+
+//                     .social-icons {
+//                         display: flex;
+//                         justify-content: space-evenly;
+//                         padding: 5% 30% 0 30%;
+//                         font-size: 20px;
+//                         width: 210px;
+//                     }
+//                 }
+
+
+//             }
+
+//             &:hover {
+//                 transition: all 1, 5s;
+
+//                 .member-img-hover {
+//                     opacity: 1;
+//                     background-color: #ffffffeb;
+
+//                 }
+
+//             }
+
+//         }
+
+
+
+//     }
+
+
+// }
+
+#advertising {
+    margin-top: 350px;
     .adverb-img {
         display: flex;
         align-items: baseline;

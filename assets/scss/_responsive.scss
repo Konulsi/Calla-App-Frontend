@@ -93,30 +93,33 @@
         }
     }
 
-    #blog{
+    #blog {
         top: 0px !important;
-        .blog-header-content{
-            h4{
+
+        .blog-header-content {
+            h4 {
                 font-size: 40px !important;
 
             }
-            h2{
+
+            h2 {
                 font-size: 30px !important;
             }
 
-            .blog-header-logo img{
+            .blog-header-logo img {
                 width: 40% !important;
             }
         }
     }
 
-    #blogs{
+    #blogs {
         top: 0px !important;
         padding: 0 0 0 0 !important;
     }
 
     #gift {
         margin-top: 0 !important;
+
         .gift-img {
             padding: 7% 0 7% 0 !important;
 
@@ -131,35 +134,47 @@
         }
     }
 
-    #our-team{
+    #our-team {
         top: 0px !important;
-        .team-img{
+
+        .team-img {
             padding: 9% 0 30% 0 !important;
-            .team-content{
-                h4{
+
+            .team-content {
+                h4 {
                     font-size: 35px !important;
                 }
-                h2{
+
+                h2 {
                     font-size: 30px !important;
                 }
-                img{
+
+                img {
                     width: 50% !important;
                 }
             }
         }
-    }
 
-    #team-member{
-        top: 120px !important;
-        .members{
-            top: -187px !important;
+        .members {
+            top: 170px !important;
             left: 12% !important;
             right: 12% !important;
-            .single-member{
-                padding-top: 10px;
-            }
+
+
         }
     }
+
+    // #team-member{
+    //     top: 120px !important;
+    //     .members{
+    //         top: -187px !important;
+    //         left: 12% !important;
+    //         right: 12% !important;
+    //         .single-member{
+    //             padding-top: 10px;
+    //         }
+    //     }
+    // }
 
 }
 
