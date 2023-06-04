@@ -1,4 +1,4 @@
-@media (min-width:0)and (max-width:850px) {
+@media (min-width:0) and (max-width:850px) {
     .logo img {
         width: 30% !important;
     }
@@ -115,8 +115,54 @@
         padding: 0 0 0 0 !important;
     }
 
+    #gift {
+        margin-top: 0 !important;
+        .gift-img {
+            padding: 7% 0 7% 0 !important;
+
+            h2 {
+                font-size: 10px !important;
+            }
+
+            img {
+                top: 65% !important;
+                width: 20% !important;
+            }
+        }
+    }
+
+    #our-team{
+        top: 0px !important;
+        .team-img{
+            padding: 9% 0 30% 0 !important;
+            .team-content{
+                h4{
+                    font-size: 35px !important;
+                }
+                h2{
+                    font-size: 30px !important;
+                }
+                img{
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+
+    #team-member{
+        top: 120px !important;
+        .members{
+            top: -187px !important;
+            left: 12% !important;
+            right: 12% !important;
+            .single-member{
+                padding-top: 10px;
+            }
+        }
+    }
+
 }
 
 
 
-@media (min-width:850)and (max-width:1200px) {}
+@media (min-width:850) and (max-width:1200px) {}
