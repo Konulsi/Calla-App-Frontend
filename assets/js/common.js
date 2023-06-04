@@ -38,5 +38,38 @@ $(document).ready(function () {
     })
 
 
+    //responsive navbar
+
+    let userIcon = document.querySelector(".right-icons .icons i");
+    let logReg = document.querySelector(".right-icons .icons .log-reg")
+
+    userIcon.addEventListener("click", function(e){
+        e.preventDefault();
+        logReg.classList.toggle("d-none");
+    })
+
+
+
+
+    $(".search").on("click", function (e) {
+        e.preventDefault()
+        $(".search-input").removeClass("d-none");
+
+    })
+
+    $(".close-icon").on("click", function () {
+        $(".search-input").addClass("d-none");
+        $(".search-input input").val("");
+    })
+
+    $(".search-input").on("click", function(){
+        $(".right-icons .icons .log-reg").addClass("d-none");
+    })
+
+    $(".search").on("click", function (e) {
+        $(".right-icons .icons .log-reg").addClass("d-none");
+
+
+    })
 
 })
