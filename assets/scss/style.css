@@ -809,8 +809,8 @@
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
-  padding: 34px;
-  text-align: justify;
+  padding: 45px;
+  text-align: end;
 }
 #about-strategy .strategy-content .strategy-title {
   font-family: "Crimson Text";
@@ -844,37 +844,38 @@
 }
 
 #successes {
-  margin-top: 30px;
-  padding: 7%;
+  padding: 10%;
 }
-#successes .successes {
-  padding: 0 80px 0 80px;
+#successes .mySwiper {
+  border: 1px solid rgba(128, 128, 128, 0.3411764706);
+  padding: 60px 28px 37px 37px;
+  height: 300px;
 }
-#successes .successes .successes-content {
+#successes .mySwiper .successes-content {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-around;
 }
-#successes .successes .successes-content .success-text p {
+#successes .mySwiper .successes-content .success-text p {
   font-size: 1.15em;
   line-height: 1.75em;
   font-family: "Open Sans";
   color: rgba(83, 79, 79, 0.6);
 }
-#successes .successes .successes-content .author {
+#successes .mySwiper .successes-content .author {
   display: flex;
   gap: 10px;
   justify-content: left;
   align-items: center;
 }
-#successes .successes .successes-content .author-name {
+#successes .mySwiper .successes-content .author-name {
   font-family: "Crimson Text";
   color: #b97a56;
   font-size: 20px;
   font-weight: 600;
 }
-#successes .successes .successes-content .author-job {
+#successes .mySwiper .successes-content .author-job {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -1119,12 +1120,41 @@
     padding: 10% 0 10% 0 !important;
   }
 }
-@media (min-width: 850px) and (max-width: 1200px) {
+@media (min-width: 820px) and (max-width: 1200px) {
   .responsive-navbar .hamburger-icon i {
     left: 54px !important;
-    font-size: 50px !important;
+    font-size: 25px !important;
   }
   .responsive-navbar .right-icons .icons {
     right: 60px !important;
+  }
+  .responsive-navbar .right-icons .icons a i {
+    font-size: 20px !important;
+  }
+  .logo img {
+    width: 30% !important;
+    padding-top: 0% !important;
+  }
+  #slider .swiper-slide img:nth-child(2) {
+    width: 50%;
+    height: 50%;
+  }
+  #slider .swiper-slide img:nth-child(3) {
+    width: 12%;
+    height: 4%;
+  }
+  #slider .swiper-slide .slider-title {
+    top: 35% !important;
+    font-size: 35px !important;
+  }
+  #slider .swiper-slide .slider-text {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  #arrivals .arrivals-content h2 {
+    font-size: 40px !important;
+  }
+  #arrivals .arrivals-content .arrival-img img {
+    width: 17% !important;
   }
 }/*# sourceMappingURL=style.css.map */

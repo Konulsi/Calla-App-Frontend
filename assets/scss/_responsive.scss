@@ -82,261 +82,261 @@
             }
         }
     }
-    
-#slider {
-    margin-top: 50px;
 
-    .swiper-wrapper {
-       .slider-title{
-            top: 35% !important;
-            font-size: 14px !important;
-        }
+    #slider {
+        margin-top: 50px;
 
-        .slider-text {
-            width: 34% !important;
-            font-size: 6px !important;
-            line-height: 7px !important;
-            top: 54% !important;
+        .swiper-wrapper {
+            .slider-title {
+                top: 35% !important;
+                font-size: 14px !important;
+            }
 
-        }
+            .slider-text {
+                width: 34% !important;
+                font-size: 6px !important;
+                line-height: 7px !important;
+                top: 54% !important;
 
-    }
-
-}
-
-#arrivals {
-    .arrivals-content {
-        top: 0px !important;
-
-        h4 {
-            font-size: 35px !important;
-        }
-
-        h2 {
-            font-size: 28px !important;
-        }
-
-        .arrival-img img {
-            width: 32% !important;
-        }
-    }
-}
-
-#products-slider {
-    top: 0px !important;
-
-    .slick-dots {
-        display: none !important;
-    }
-}
-
-#banner {
-    top: 0px !important;
-
-    .first-bnr-img-text1 {
-        position: relative !important;
-        top: 90px !important;
-        font-size: 40p !important;
-        left: 37px !important;
-    }
-
-    .first-bnr-img-text2 {
-        top: 20% !important;
-        margin-left: 11% !important;
-    }
-
-    .second-bnr-img-text1 {
-        top: 40% !important;
-        right: 30% !important;
-    }
-
-    .bnr-img-logo {
-        position: absolute !important;
-        bottom: 55% !important;
-        right: 38% !important;
-        width: 25% !important;
-    }
-
-    span {
-        bottom: 51% !important;
-        right: 42% !important;
-    }
-
-    .last-bnr-img-text1 {
-        top: 82% !important;
-        left: 20% !important;
-    }
-
-    .last-bnr-img-text2 {
-        top: 85%;
-        left: 20%;
-    }
-}
-
-#blog {
-    top: 0px !important;
-
-    .blog-header-content {
-        h4 {
-            font-size: 35px !important;
+            }
 
         }
 
-        h2 {
-            font-size: 30px !important;
-        }
-
-        .blog-header-logo img {
-            width: 40% !important;
-        }
     }
-}
 
-#blogs {
-    top: 0px !important;
-    padding: 0 0 0 0 !important;
-}
+    #arrivals {
+        .arrivals-content {
+            top: 0px !important;
 
-#gift {
-    margin-top: 0 !important;
-
-    .gift-img {
-        padding: 7% 0 7% 0 !important;
-
-        h2 {
-            font-size: 10px !important;
-        }
-
-        img {
-            top: 65% !important;
-            width: 20% !important;
-        }
-    }
-}
-
-#our-team {
-    top: 0px !important;
-
-    .team-img {
-        padding: 9% 0 30% 0 !important;
-
-        .team-content {
             h4 {
                 font-size: 35px !important;
+            }
+
+            h2 {
+                font-size: 28px !important;
+            }
+
+            .arrival-img img {
+                width: 32% !important;
+            }
+        }
+    }
+
+    #products-slider {
+        top: 0px !important;
+
+        .slick-dots {
+            display: none !important;
+        }
+    }
+
+    #banner {
+        top: 0px !important;
+
+        .first-bnr-img-text1 {
+            position: relative !important;
+            top: 90px !important;
+            font-size: 40p !important;
+            left: 37px !important;
+        }
+
+        .first-bnr-img-text2 {
+            top: 20% !important;
+            margin-left: 11% !important;
+        }
+
+        .second-bnr-img-text1 {
+            top: 40% !important;
+            right: 30% !important;
+        }
+
+        .bnr-img-logo {
+            position: absolute !important;
+            bottom: 55% !important;
+            right: 38% !important;
+            width: 25% !important;
+        }
+
+        span {
+            bottom: 51% !important;
+            right: 42% !important;
+        }
+
+        .last-bnr-img-text1 {
+            top: 82% !important;
+            left: 20% !important;
+        }
+
+        .last-bnr-img-text2 {
+            top: 85%;
+            left: 20%;
+        }
+    }
+
+    #blog {
+        top: 0px !important;
+
+        .blog-header-content {
+            h4 {
+                font-size: 35px !important;
+
             }
 
             h2 {
                 font-size: 30px !important;
             }
 
+            .blog-header-logo img {
+                width: 40% !important;
+            }
+        }
+    }
+
+    #blogs {
+        top: 0px !important;
+        padding: 0 0 0 0 !important;
+    }
+
+    #gift {
+        margin-top: 0 !important;
+
+        .gift-img {
+            padding: 7% 0 7% 0 !important;
+
+            h2 {
+                font-size: 10px !important;
+            }
+
             img {
-                width: 50% !important;
+                top: 65% !important;
+                width: 20% !important;
             }
         }
     }
 
-    .members {
-        top: 170px !important;
-        left: 12% !important;
-        right: 12% !important;
+    #our-team {
+        top: 0px !important;
 
+        .team-img {
+            padding: 9% 0 30% 0 !important;
 
-    }
-}
-
-#advertising {
-    margin-top: 1500px !important;
-
-    .adverb-img {
-        padding: 35px 42px 20px 0 !important;
-
-        .adverb-icon {
-            margin-left: 10px !important;
-
-        }
-
-        .adverb-content {
-            margin-left: 40px !important;
-
-            p {
-                color: gray !important;
-            }
-        }
-    }
-
-}
-
-#decor {
-    top: 0px !important;
-
-    .decor-header-content {
-        h4 {
-            font-size: 35px !important;
-
-        }
-
-        h2 {
-            font-size: 30px !important;
-        }
-
-        .decor-header-logo img {
-            width: 40% !important;
-        }
-    }
-}
-
-#decors {
-    top: 0px !important;
-}
-
-#news-letter {
-    margin-top: 30%;
-
-    .news-letter-content {
-        .subscribe {
-            display: block !important;
-            padding: 0px !important;
-
-            .email-input {
-                input {
-                    margin-left: 33px !important;
-                    height: 50px !important;
-                    width: 255px !important;
+            .team-content {
+                h4 {
+                    font-size: 35px !important;
                 }
-            }
 
-            .subscribe-btn {
-                input {
-                    height: 40px !important;
-                    width: 110px !important;
-                    margin: 15px 0 15px 32px !important;
+                h2 {
+                    font-size: 30px !important;
+                }
+
+                img {
+                    width: 50% !important;
                 }
             }
         }
-    }
-}
 
-#footer {
-    .footer-first-list {
-        padding: 20% 0 0% 0 !important;
-    }
+        .members {
+            top: 170px !important;
+            left: 12% !important;
+            right: 12% !important;
 
-    .footer-second-list {
-        padding: 10% 0 0 0 !important;
-    }
 
-    .footer-third-list {
-        padding: 10% 0 0 0 !important;
-    }
-
-    .footer-fourth-list {
-        padding: 2% 0 30% 0 !important;
-
-        .footer-img {
-            padding: 10% 0 10% 0 !important;
         }
     }
-}
+
+    #advertising {
+        margin-top: 1500px !important;
+
+        .adverb-img {
+            padding: 35px 42px 20px 0 !important;
+
+            .adverb-icon {
+                margin-left: 10px !important;
+
+            }
+
+            .adverb-content {
+                margin-left: 40px !important;
+
+                p {
+                    color: gray !important;
+                }
+            }
+        }
+
+    }
+
+    #decor {
+        top: 0px !important;
+
+        .decor-header-content {
+            h4 {
+                font-size: 35px !important;
+
+            }
+
+            h2 {
+                font-size: 30px !important;
+            }
+
+            .decor-header-logo img {
+                width: 40% !important;
+            }
+        }
+    }
+
+    #decors {
+        top: 0px !important;
+    }
+
+    #news-letter {
+        margin-top: 30%;
+
+        .news-letter-content {
+            .subscribe {
+                display: block !important;
+                padding: 0px !important;
+
+                .email-input {
+                    input {
+                        margin-left: 33px !important;
+                        height: 50px !important;
+                        width: 255px !important;
+                    }
+                }
+
+                .subscribe-btn {
+                    input {
+                        height: 40px !important;
+                        width: 110px !important;
+                        margin: 15px 0 15px 32px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        .footer-first-list {
+            padding: 20% 0 0% 0 !important;
+        }
+
+        .footer-second-list {
+            padding: 10% 0 0 0 !important;
+        }
+
+        .footer-third-list {
+            padding: 10% 0 0 0 !important;
+        }
+
+        .footer-fourth-list {
+            padding: 2% 0 30% 0 !important;
+
+            .footer-img {
+                padding: 10% 0 10% 0 !important;
+            }
+        }
+    }
 
 
 }
@@ -344,21 +344,97 @@
 
 
 
-@media (min-width:850px) and (max-width:1200px) {
+@media (min-width:820px) and (max-width:1200px) {
     .responsive-navbar {
         .hamburger-icon {
             i {
                 left: 54px !important;
-                font-size: 50px !important;
+                font-size: 25px !important;
             }
         }
 
         .right-icons {
             .icons {
                 right: 60px !important;
+
+                a {
+                    i {
+                        font-size: 20px !important;
+                    }
+                }
             }
         }
 
 
     }
+
+    .logo {
+        img {
+            width: 30% !important;
+            padding-top: 0% !important;
+        }
+    }
+
+    #slider {
+        .swiper-slide {
+            img:nth-child(2) {
+                width: 50%;
+                height: 50%;
+
+            }
+
+            img:nth-child(3) {
+                width: 12%;
+                height: 4%;
+            }
+
+            .slider-title {
+                top: 35% !important;
+                font-size: 35px !important;
+
+            }
+
+
+            .slider-text {
+
+                font-size: 12px !important;
+                line-height: 16px !important;
+            }
+        }
+
+
+    }
+
+
+
+    #arrivals {
+        .arrivals-content {
+            h2 {
+                font-size: 40px !important;
+            }
+
+            .arrival-img {
+                img {
+                    width: 17% !important;
+                }
+
+            }
+
+        }
+
+    }
+
+    #banner {
+        // .banner-small-img {
+        //     position: relative;
+        //     top: -56px;
+
+        //     .first-bnr-img-text2 {
+        //         top: 33% !important;
+        //         margin-left: 14% !important
+        //     }
+        // }
+    }
+
+
 }
