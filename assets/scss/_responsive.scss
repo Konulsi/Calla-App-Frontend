@@ -1,4 +1,4 @@
-@media (min-width:0) and (max-width:850px) {
+@media (min-width:0px) and (max-width:850px) {
 
     .responsive-navbar {
         .hamburger-icon {
@@ -82,16 +82,14 @@
             }
         }
     }
-}
-
-
+    
 #slider {
     margin-top: 50px;
 
     .swiper-wrapper {
-        h1 {
-            top: 35%;
-            font-size: 14px;
+       .slider-title{
+            top: 35% !important;
+            font-size: 14px !important;
         }
 
         .slider-text {
@@ -338,6 +336,9 @@
             padding: 10% 0 10% 0 !important;
         }
     }
+}
+
+
 }
 
 

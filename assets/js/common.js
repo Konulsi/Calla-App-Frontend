@@ -24,6 +24,7 @@ $(document).ready(function () {
         $(rightIcons).addClass("d-none");
         $(searchInput).removeClass("d-none");
 
+
     })
 
   

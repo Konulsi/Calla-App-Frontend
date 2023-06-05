@@ -162,6 +162,12 @@
     }
 }
 
+// .slow-down{
+//     visibility: hidden;
+//     opacity: 0;
+    
+// }
+
 //responsive navbar
 
 .responsive-navbar {
@@ -263,11 +269,11 @@
 
     }
 
-    h1 {
+    .slider-title {
         position: absolute;
         z-index: 25;
-        top: 38%;
-        font-size: 60px;
+        top: 38% !important;
+        font-size: 60px !important;
         font-weight: 500;
         font-family: "Crimson Text";
         height: auto;
@@ -278,13 +284,13 @@
     .slider-text {
         position: absolute;
         z-index: 25;
-        width: 27%;
+        width: 27% !important;
         font-family: "Open Sans", sans-serif;
-        font-size: 17px;
-        line-height: 27px;
+        font-size: 17px !important;
+        line-height: 27px !important;
         font-weight: 300;
         color: #6767678c;
-        top: 52%;
+        top: 52% !important;
     }
 
     .swiper-slide img {
@@ -682,10 +688,10 @@
         .single-member {
 
             .member-img-hover {
-                height: 92%;
+                height: 96%;
                 border: 2px solid #e1a385;
                 position: absolute;
-                top: 16px;
+                top: 7px;
                 width: 23.6%;
                 text-align: center;
                 opacity: 0;
@@ -741,81 +747,7 @@
 
 }
 
-// #team-member {
-//     padding: 0 7% 0 7%;
-//     position: relative;
-//     top: 55px;
-//     height: 340px;
 
-//     .members {
-//         position: absolute;
-//         top: -130px;
-//         left: 8%;
-//         right: 8%;
-
-
-//         .single-member {
-
-//             .member-img-hover {
-//                 height: 100%;
-//                 border: 2px solid #e1a385;
-//                 position: absolute;
-//                 top: 0px;
-//                 width: 24%;
-//                 text-align: center;
-//                 opacity: 0;
-//                 transition: 1s;
-
-//                 .member-detail {
-//                     position: absolute;
-//                     top: 35%;
-//                     left: 15%;
-
-//                     .member-name {
-//                         h5 {
-//                             font-size: 30px;
-//                             font-family: serif;
-//                         }
-
-//                     }
-
-//                     .member-position {
-//                         color: #474141f2;
-//                         font-size: 17px;
-//                     }
-
-
-//                     .social-icons {
-//                         display: flex;
-//                         justify-content: space-evenly;
-//                         padding: 5% 30% 0 30%;
-//                         font-size: 20px;
-//                         width: 210px;
-//                     }
-//                 }
-
-
-//             }
-
-//             &:hover {
-//                 transition: all 1, 5s;
-
-//                 .member-img-hover {
-//                     opacity: 1;
-//                     background-color: #ffffffeb;
-
-//                 }
-
-//             }
-
-//         }
-
-
-
-//     }
-
-
-// }
 
 #advertising {
     margin-top: 350px;
