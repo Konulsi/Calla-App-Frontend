@@ -28,7 +28,8 @@ $(document).ready(function(){
         slidesToShow: 5,
         slidesToScroll: 5,
         autoplay: true,
-       auttoplaySpeed: 2000,
+        loop:true,
+       auttoplaySpeed: 1000,
         responsive: [
           {
             breakpoint: 1024,
