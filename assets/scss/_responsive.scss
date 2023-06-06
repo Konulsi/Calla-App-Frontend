@@ -10,14 +10,14 @@
         .logo {
             height: 50px;
 
-            a {
-                img {
-                    width: 30% !important;
-                    top: 0px !important;
-                    padding: 0px !important;
-                    margin-right: 25px !important;
-                }
+
+            img {
+                width: 30% !important;
+                top: 0px !important;
+                padding: 0px !important;
+                margin-right: 25px !important;
             }
+
 
         }
 
@@ -198,7 +198,7 @@
     }
 
     #gift {
-        margin-top: 0 !important;
+        margin-top: 50px !important;
 
         .gift-img {
             padding: 7% 0 7% 0 !important;
@@ -344,7 +344,7 @@
 
 
 
-@media (min-width:820px) and (max-width:1200px) {
+@media (min-width:750px) and (max-width:1200px) {
     .responsive-navbar {
         .hamburger-icon {
             i {
@@ -356,6 +356,7 @@
         .right-icons {
             .icons {
                 right: 60px !important;
+                gap: 15px !important;
 
                 a {
                     i {
@@ -405,10 +406,10 @@
 
     }
 
-
-
     #arrivals {
         .arrivals-content {
+            top: 40px !important;
+        
             h2 {
                 font-size: 40px !important;
             }
@@ -424,17 +425,151 @@
 
     }
 
-    #banner {
-        // .banner-small-img {
-        //     position: relative;
-        //     top: -56px;
+    #products-slider{
+        top: 50px !important;
 
-        //     .first-bnr-img-text2 {
-        //         top: 33% !important;
-        //         margin-left: 14% !important
-        //     }
-        // }
     }
 
+    #banner {
+        top: 110px !important;
+
+        .banner-small-img {
+            position: relative;
+            top: 0px;
+
+            .first-bnr-img-text2 {
+                top: 33% !important;
+                margin-left: 14% !important
+            }
+
+            .second-bnr-img-text1 {
+
+                top: 27% !important;
+            }
+
+            .bnr-img-logo {
+                bottom: 50% !important;
+                right: 37% !important;
+                width: 30% !important;
+            }
+
+            span {
+                bottom: 35% !important;
+                right: 42% !important;
+            }
+
+            .last-bnr-img-text1 {
+                top: 10% !important;
+                left: 10% !important;
+            }
+
+            .last-bnr-img-text2 {
+                top: 24% !important;
+                left: 34px !important;
+            }
+        }
+    }
+
+    #blog {
+        top: 130px !important;
+        .blog-header-content {
+            h2 {
+                font-size: 40px !important;
+            }
+
+            .blog-header-logo {
+                img {
+                    width: 17% !important;
+                }
+
+            }
+
+        }
+
+    }
+
+    #blogs{
+        top: 120px !important;
+    }
+
+    #gift {
+        margin-top: 200px !important;
+    }
+
+    #our-team {
+        margin-top: 100px !important;
+        .members {
+            top: 225px !important;
+            left: 11% !important;
+            right: 11% !important;
+        }
+    }
+
+    #advertising {
+        margin-top: 650px !important;
+    }
+
+    #decor {
+        top: 40px !important;
+        .decor-header-content {
+            h2 {
+                font-size: 40px !important;
+            }
+
+            .decor-header-logo {
+                img {
+                    width: 17% !important;
+                }
+
+            }
+
+        }
+
+    }
+
+    #decors{
+        top: 40px !important;
+    }
+
+
+    #news-letter {
+        
+    margin-top: 20% !important;
+
+
+        .news-letter-content {
+            .subscribe {
+                display: flex !important;
+                padding: 0px !important;
+                margin-bottom: 30px;
+                .email-input{
+                    input{
+                        margin-left: 0px !important;
+                        height: 50px !important;
+                        width: 300px !important;
+                    }
+                }
+                .subscribe-btn{
+                    input{
+                        margin: 0px !important;
+                        height: 50px !important;
+                        width: 160px !important;
+                    }
+                }
+            }
+        }
+    }
+
+
+    #footer{
+        margin-top: 14% !important;
+        padding: 35px !important;
+        .footer-second-list {
+            padding: 20% 0 0 0 !important;
+        }
+        .footer-fourth-list {
+            padding: 9% 0 30% 0 !important;
+        }
+    }
 
 }
