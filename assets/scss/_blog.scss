@@ -1,0 +1,128 @@
+#blog-header {
+    background-color: #F6F6F6;
+
+    .blog-header-content {
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+
+#blog-post-img {
+    .mySwiper {
+
+        height: 450px;
+
+
+    }
+    .blog-post-text {
+
+        .post-info-top {
+            justify-content: space-between !important;
+            display: flex !important;
+            width: 340px !important;
+
+            .post-info-author {
+                span {
+                    color: #b97a56;
+                    font-size: 12px;
+                    letter-spacing: .1em;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    transition: 0.3s;
+                    &:hover{
+                        color: black;
+                    }
+                }
+
+                span::after {
+                    content: ' /';
+                }
+            }
+
+            .post-date {
+                span {
+                    font-size: 12px;
+                    letter-spacing: .1em;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #b97a56;
+                    }
+                }
+
+                span::after {
+                    content: ' /';
+                }
+            }
+
+            .post-info-category {
+                span {
+                    font-size: 12px;
+                    letter-spacing: .1em;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: #b97a56;
+                    transition: 0.3s;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .post-title {
+
+            h3 {
+                font-family: "Crimson Text";
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: .05em;
+                font-size: 34px;
+                
+                margin-top: 10px;
+
+                a{
+                text-decoration: none;
+                color: #333;
+                transition: 0.3s;
+                &:hover{
+                    color: #b97a56;
+                }
+                }
+            }
+        }
+
+        .post-description {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            line-height: 27px;
+            font-weight: 300;
+            color: #676767b0;
+            -webkit-font-smoothing: antialiased;
+
+        }
+        .post-readmore-btn{
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 12px;
+                letter-spacing: .1em;
+                font-weight: 600;
+                text-transform: uppercase;
+                transition: 0.3s;
+                &:hover{
+                    color: #b97a56;
+                }
+            }
+        }
+    }
+}
+

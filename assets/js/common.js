@@ -7,8 +7,6 @@ $('#topbtn').click(function () {
 
 
 $(document).ready(function () {
-
-
     //search
     let searchInput = $(".search-input");
     let rightIcons = $(".right-icons");
@@ -23,39 +21,30 @@ $(document).ready(function () {
         e.preventDefault()
         $(rightIcons).addClass("d-none");
         $(searchInput).removeClass("d-none");
-
-
     })
 
-  
     //hamburger-menu
-
     let hamburgerIcon = document.querySelector(".hamburger-icon i");
     let hamburgerMenuList = document.querySelector(".hamburger-menu-list .nav-menu")
-    
-    hamburgerIcon.addEventListener("click", function(){
+
+    hamburgerIcon.addEventListener("click", function () {
         hamburgerMenuList.classList.toggle("close")
 
     })
 
-
     //responsive navbar
-
     let userIcon = document.querySelector(".right-icons .icons i");
     let logReg = document.querySelector(".right-icons .icons .log-reg")
 
-    userIcon.addEventListener("click", function(e){
+    userIcon.addEventListener("click", function (e) {
         e.preventDefault();
         logReg.classList.toggle("d-none");
     })
 
-
-
-
+    //search
     $(".search").on("click", function (e) {
         e.preventDefault()
         $(".search-input").removeClass("d-none");
-
     })
 
     $(".close-icon").on("click", function () {
@@ -63,14 +52,19 @@ $(document).ready(function () {
         $(".search-input input").val("");
     })
 
-    $(".search-input").on("click", function(){
+    //responsive search
+    $(".search-input").on("click", function () {
         $(".right-icons .icons .log-reg").addClass("d-none");
     })
 
     $(".search").on("click", function (e) {
         $(".right-icons .icons .log-reg").addClass("d-none");
-
-
     })
+
+    
+
+
+
+
 
 })

@@ -1,0 +1,30 @@
+#contact-header-img {
+    .contact-bg-img {
+        height: 320px;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Crimson Text";
+        font-weight: bold;
+    }
+}
+
+#contact-content {
+    position: relative;
+    top: 60px;
+    padding: 30px;
+
+    .contact-title {
+        h3{
+            font-family: "Crimson Text";
+            text-transform: uppercase;
+            font-weight: 600 !important;
+            letter-spacing: .05em;
+            font-size: 34px;
+        }
+
+    }
+}
