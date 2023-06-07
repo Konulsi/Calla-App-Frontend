@@ -1,3 +1,7 @@
+body{
+    user-select: none;
+    
+}
 #contact-header-img {
     .contact-bg-img {
         height: 320px;
@@ -13,18 +17,79 @@
 }
 
 #contact-content {
-    position: relative;
-    top: 60px;
-    padding: 30px;
 
-    .contact-title {
-        h3{
-            font-family: "Crimson Text";
-            text-transform: uppercase;
-            font-weight: 600 !important;
-            letter-spacing: .05em;
-            font-size: 34px;
+
+    .contact-right {
+        padding: 40px;
+
+        .contact-right-header{
+            text-align: center;
+            padding: 30px;
         }
 
+        .contact-title {
+            h3 {
+                font-family: "Crimson Text";
+                text-transform: uppercase;
+                font-weight: 600 !important;
+                letter-spacing: .05em;
+                font-size: 34px;
+            }
+
+        }
+
+        .store-name {
+            margin-top: 25px;
+        }
+
+        .store-location {
+            margin-top: 30px;
+
+            ul {
+                line-height: 30px;
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0px;
+
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #676767a8;
+                }
+
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #676767a8;
+                }
+            }
+        }
+
+        .store-social {
+            margin-top: 40px;
+
+            .social {
+                display: flex;
+                justify-content: space-between;
+                width: 100px;
+            }
+
+        }
     }
+}
+
+
+#brands{
+    margin-top: 120px;
+}
+
+.slick-dots{
+    display: none !important;
 }

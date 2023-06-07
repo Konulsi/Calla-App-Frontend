@@ -2,6 +2,12 @@
   max-width: 90% !important;
 }
 
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .up-navbar-sections {
   position: relative;
   justify-content: space-around;
@@ -266,25 +272,6 @@
 #products-slider {
   position: relative;
   top: 70px;
-}
-#products-slider .swiper {
-  width: 100%;
-  height: 100%;
-}
-#products-slider .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#products-slider .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 #products-slider .product-card {
   width: 280px !important;
@@ -669,6 +656,14 @@
   color: white !important;
 }
 
+#brands {
+  margin-top: 120px;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
 #footer {
   background-color: #2C2C2C;
   margin-top: 7%;
@@ -861,6 +856,181 @@
   color: #b97a56;
 }
 
+#login-header-img .login-bg-img {
+  height: 320px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Crimson Text";
+  font-weight: bold;
+}
+
+#login-form {
+  margin-top: 20px;
+  padding: 80px;
+}
+#login-form .login h2 {
+  font-size: 34px;
+  line-height: 40px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+#login-form .label {
+  margin-top: 30px;
+  display: block;
+  margin: 60px 0 5px;
+  color: rgba(0, 0, 0, 0.4705882353);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+}
+#login-form .label label {
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+#login-form .input {
+  margin-top: 10px;
+}
+#login-form .input input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(128, 128, 128, 0.4901960784);
+  outline: none;
+  width: 100%;
+  padding: 20px;
+}
+#login-form .remember-login .form-check {
+  margin-top: 66px;
+}
+#login-form .remember-login .form-check input {
+  cursor: pointer;
+}
+#login-form .remember-login .form-check input:focus {
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.2117647059);
+}
+#login-form .remember-login .login-button {
+  margin-top: 20px;
+}
+#login-form .remember-login .login-button button {
+  width: 130px;
+  height: 50px;
+  background-color: #b97a56;
+  color: white;
+  border: none;
+  font-family: initial;
+}
+#login-form .remember-login .login-button button:hover {
+  color: #fff;
+  background-color: #333;
+  transition: 0.7s;
+}
+#login-form .forgot-password {
+  margin-top: 30px;
+}
+#login-form .forgot-password a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+#login-form .forgot-password a:hover {
+  color: #b97a56;
+  transition: 0.5s;
+}
+#login-form .account {
+  display: flex;
+  margin-top: 10px;
+}
+#login-form .account .dont-account p {
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: bold;
+}
+#login-form .account .register {
+  margin-left: 8px;
+}
+#login-form .account .register a {
+  text-decoration: none;
+  color: #b97a56;
+  font-weight: bold;
+}
+
+#register-header-img .register-bg-img {
+  height: 320px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Crimson Text";
+  font-weight: bold;
+}
+
+#register-form {
+  margin-top: 20px;
+  padding: 80px;
+}
+#register-form .register h2 {
+  font-size: 34px;
+  line-height: 40px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+#register-form .label {
+  margin-top: 30px;
+  display: block;
+  margin: 60px 0 5px;
+  color: rgba(0, 0, 0, 0.4705882353);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+}
+#register-form .label label {
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+#register-form .input {
+  margin-top: 10px;
+}
+#register-form .input input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(128, 128, 128, 0.4901960784);
+  outline: none;
+  width: 100%;
+  padding: 20px;
+}
+#register-form .register-button {
+  margin-top: 50px;
+}
+#register-form .register-button button {
+  width: 130px;
+  height: 50px;
+  background-color: #b97a56;
+  color: white;
+  border: none;
+  font-family: initial;
+}
+#register-form .register-button button:hover {
+  color: #fff;
+  background-color: #333;
+  transition: 0.7s;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #about-header-img .about-bg-img {
   height: 320px;
   background-size: cover;
@@ -871,6 +1041,14 @@
   align-items: center;
   font-family: "Crimson Text";
   font-weight: bold;
+}
+
+.about-big-img {
+  overflow: hidden;
+}
+.about-big-img img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 #about-story {
@@ -976,6 +1154,12 @@
   color: #6e6e6e;
 }
 
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #contact-header-img .contact-bg-img {
   height: 320px;
   background-size: cover;
@@ -988,17 +1172,61 @@
   font-weight: bold;
 }
 
-#contact-content {
-  position: relative;
-  top: 60px;
+#contact-content .contact-right {
+  padding: 40px;
+}
+#contact-content .contact-right .contact-right-header {
+  text-align: center;
   padding: 30px;
 }
-#contact-content .contact-title h3 {
+#contact-content .contact-right .contact-title h3 {
   font-family: "Crimson Text";
   text-transform: uppercase;
   font-weight: 600 !important;
   letter-spacing: 0.05em;
   font-size: 34px;
+}
+#contact-content .contact-right .store-name {
+  margin-top: 25px;
+}
+#contact-content .contact-right .store-location {
+  margin-top: 30px;
+}
+#contact-content .contact-right .store-location ul {
+  line-height: 30px;
+}
+#contact-content .contact-right ul {
+  list-style: none;
+  padding: 0px;
+}
+#contact-content .contact-right ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(103, 103, 103, 0.6588235294);
+}
+#contact-content .contact-right ul li p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(103, 103, 103, 0.6588235294);
+}
+#contact-content .contact-right .store-social {
+  margin-top: 40px;
+}
+#contact-content .contact-right .store-social .social {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+#brands {
+  margin-top: 120px;
+}
+
+.slick-dots {
+  display: none !important;
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
