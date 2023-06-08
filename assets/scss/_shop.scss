@@ -1,0 +1,261 @@
+#shop-header-img {
+    .shop-bg-img {
+        height: 320px;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Crimson Text";
+        font-weight: bold;
+    }
+}
+
+#shop-content-header {
+    margin-top: 150px;
+
+    .show-result {
+        font-weight: 500;
+        letter-spacing: .05em;
+        font-family: "Crimson Text";
+        text-transform: uppercase;
+
+        p {
+            display: inline;
+            width: 50%;
+            float: left;
+            line-height: 48px;
+            color: #676767;
+        }
+    }
+
+
+
+    .sort {
+        width: 250px !important;
+        float: right;
+        font-weight: 500;
+        letter-spacing: .05em;
+        font-family: "Crimson Text";
+        text-transform: uppercase;
+
+        .form-select {
+            border-radius: inherit;
+            color: gray;
+            height: 50px;
+
+
+            &:focus {
+                box-shadow: none;
+                border-color: rgba(128, 128, 128, 0.2117647059);
+            }
+
+
+        }
+    }
+
+    .product-card {
+        width: 340px !important;
+        position: relative;
+        margin-top: 50px;
+        .product-img {
+            width: 94%;
+    
+            img {
+                width: 100%;
+            }
+        }
+    
+        .product-img-hover {
+            border: 2px solid #e1a385;
+            position: absolute;
+            top: 0%;
+            height: 84%;
+            width: 94%;
+            opacity: 0;
+            transition: 0.5s;
+    
+            .add-btn-first {
+                position: absolute;
+                left: 18%;
+                top: 45%;
+                text-align: center;
+                width: 61%;
+                border: 1px solid #e1a385;
+                height: 15%;
+                padding: 5%;
+                cursor: pointer !important;
+    
+                button {
+                    border: none;
+                    background-color: transparent;
+                    color: #e1a385;
+                }
+            }
+    
+            .add-btn-second {
+                position: absolute;
+                left: 19%;
+                top: 46%;
+                text-align: center;
+                width: 62%;
+                border: 1px solid #e1a385;
+                height: 15%;
+                cursor: pointer !important;
+    
+            }
+        }
+    
+        .product-name {
+            text-align: center !important;
+            margin-top: 5% !important;
+    
+            a {
+                text-decoration: none;
+                color: rgb(90 82 82);
+                font-size: 18px;
+                font-family: -webkit-body;
+                font-weight: 600;
+                margin-right: 5%;
+            }
+        }
+    
+        .product-price {
+            text-align: center;
+            color: #6a6a6aed;
+            font-size: 19px;
+            margin-right: 5%;
+        }
+    
+        &:hover {
+    
+            .product-img {
+                filter: blur(10px);
+            }
+    
+            .product-img-hover {
+                opacity: 1;
+            }
+    
+        }
+    
+    }
+
+    .page-number{
+        margin-top: 50px;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 20px;
+            font-family: "Crimson Text";
+            li{
+                a{
+                    text-decoration: none;
+                    // color: #e1a385;
+                    color: #676767bf
+                }
+            }
+        }
+    }
+
+    //filter
+
+    .product-price {
+        font-family: "Crimson Text";
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: .1em;
+    }
+
+        .price-title {
+            padding: 2px 20px;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .1em;
+                font-family: "Crimson Text";
+                text-transform: uppercase;
+            }
+        }
+
+        .price-filter {
+
+            .card {
+                border-radius: 5px;
+                padding: 0 20px 20px 20px;
+            }
+
+            h4 {
+                color: #000;
+                margin-bottom: 20px;
+                text-align: center;
+                font-weight: 600;
+            }
+
+            .price-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 30px;
+            }
+
+            label {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .range-slider {
+                position: relative;
+                margin: 15px 0 30px 0;
+            }
+
+            input[type=range] {
+                width: 100%;
+                background: transparent;
+                position: absolute;
+                left: 0;
+            }
+
+            input[type=range]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background: #36b37e;
+                cursor: pointer;
+                margin-top: -5px;
+                position: relative;
+                z-index: 1;
+            }
+
+            input[type=range]::-webkit-slider-runnable-track {
+                width: 100%;
+                height: 5px;
+                background: #e8e8e8;
+                border-radius: 3px;
+                border: none;
+            }
+        }
+    }
+    
+}
+
+
+@font-face {
+    font-family: Alex Brush;
+    src: url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+}
+
+
+
+
+
