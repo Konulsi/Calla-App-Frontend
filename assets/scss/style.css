@@ -290,6 +290,7 @@ body {
   width: 5%;
   opacity: 0;
   transition: 0.5s;
+  transition: 1s;
 }
 #products-slider .product-card .product-img-hover .add-btn-first {
   position: absolute;
@@ -335,6 +336,9 @@ body {
   font-size: 19px;
   margin-right: 5%;
 }
+#products-slider .product-card:hover {
+  transition: 1s;
+}
 #products-slider .product-card:hover .product-img {
   filter: blur(10px);
 }
@@ -352,6 +356,9 @@ body {
 }
 #banner .banner-big-img {
   overflow: hidden;
+}
+#banner .banner-big-img img {
+  transition: 0.5s;
 }
 #banner .banner-big-img img:hover {
   transform: scale(1.1);
@@ -514,6 +521,9 @@ body {
   left: 8%;
   right: 8%;
 }
+#our-team .members .single-member {
+  transition: all 1, 5s;
+}
 #our-team .members .single-member .member-img-hover {
   height: 96%;
   border: 2px solid #e1a385;
@@ -599,6 +609,7 @@ body {
 }
 #decors .single-decor {
   padding-top: 8%;
+  transition: 1s;
 }
 #decors .single-decor .decor-imgs {
   position: relative;
@@ -612,6 +623,7 @@ body {
 }
 #decors .single-decor:hover .decor-hover-img {
   opacity: 1;
+  transition: 1s;
 }
 
 #news-letter {
@@ -991,50 +1003,61 @@ body {
 #shop-content-header .product-price {
   font-family: "Crimson Text";
   text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
-#shop-content-header .product-price .price-title {
+#shop-content-header .price-title {
   padding: 2px 20px;
 }
-#shop-content-header .product-price .price-title h3 {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: capitalize;
+#shop-content-header .price-title h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
 }
-#shop-content-header .product-price .price-filter .card {
-  border-radius: 5px;
+#shop-content-header .price-filter .card {
+  border: none;
   padding: 0 20px 20px 20px;
 }
-#shop-content-header .product-price .price-filter h4 {
+#shop-content-header .price-filter h4 {
   color: #000;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
 }
-#shop-content-header .product-price .price-filter .price-content {
+#shop-content-header .price-filter .price-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 30px;
+  margin-top: 10px;
 }
-#shop-content-header .product-price .price-filter label {
+#shop-content-header .price-filter .price-content .filter-button button {
+  border: none;
+  background-color: #b97a56;
+  height: 40px;
+  width: 90px;
+  color: white;
+}
+#shop-content-header .price-filter label {
   font-size: 12px;
   font-weight: 500;
 }
-#shop-content-header .product-price .price-filter p {
+#shop-content-header .price-filter p {
   font-size: 16px;
   font-weight: 600;
 }
-#shop-content-header .product-price .price-filter .range-slider {
+#shop-content-header .price-filter .range-slider {
   position: relative;
   margin: 15px 0 30px 0;
 }
-#shop-content-header .product-price .price-filter input[type=range] {
+#shop-content-header .price-filter input[type=range] {
   width: 100%;
   background: transparent;
   position: absolute;
   left: 0;
 }
-#shop-content-header .product-price .price-filter input[type=range]::-webkit-slider-thumb {
+#shop-content-header .price-filter input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 15px;
   width: 15px;
@@ -1045,12 +1068,26 @@ body {
   position: relative;
   z-index: 1;
 }
-#shop-content-header .product-price .price-filter input[type=range]::-webkit-slider-runnable-track {
+#shop-content-header .price-filter input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 5px;
-  background: #e8e8e8;
+  background: #b97a56;
   border-radius: 3px;
   border: none;
+}
+#shop-content-header .category {
+  padding: 20px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+#shop-content-header .tag {
+  padding: 20px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 @font-face {
@@ -1247,6 +1284,9 @@ body {
 .about-big-img {
   overflow: hidden;
 }
+.about-big-img img {
+  transition: 1s;
+}
 .about-big-img img:hover {
   transform: scale(1.1);
   transition: 1s;
@@ -1389,6 +1429,11 @@ body {
 }
 #contact-content .contact-right .store-name {
   margin-top: 25px;
+  transition: 0.5s;
+}
+#contact-content .contact-right .store-name:hover {
+  color: #b97a56;
+  transition: 0.5s;
 }
 #contact-content .contact-right .store-location {
   margin-top: 30px;
@@ -1420,6 +1465,9 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100px;
+}
+#contact-content .contact-right .store-social .social li:hover {
+  color: #b97a56;
 }
 
 #brands {

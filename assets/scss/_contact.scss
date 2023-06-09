@@ -1,7 +1,8 @@
-body{
+body {
     user-select: none;
-    
+
 }
+
 #contact-header-img {
     .contact-bg-img {
         height: 320px;
@@ -22,7 +23,7 @@ body{
     .contact-right {
         padding: 40px;
 
-        .contact-right-header{
+        .contact-right-header {
             text-align: center;
             padding: 30px;
         }
@@ -40,6 +41,12 @@ body{
 
         .store-name {
             margin-top: 25px;
+            transition: 0.5s;
+
+            &:hover {
+                color: #b97a56;
+                transition: 0.5s;
+            }
         }
 
         .store-location {
@@ -79,6 +86,12 @@ body{
                 display: flex;
                 justify-content: space-between;
                 width: 100px;
+
+                li {
+                    &:hover {
+                        color: #b97a56;
+                    }
+                }
             }
 
         }
@@ -86,10 +99,10 @@ body{
 }
 
 
-#brands{
+#brands {
     margin-top: 120px;
 }
 
-.slick-dots{
+.slick-dots {
     display: none !important;
 }
