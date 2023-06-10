@@ -168,7 +168,6 @@
 
     .product-price {
         font-family: "Crimson Text";
-        text-transform: uppercase;
         font-weight: 700;
         letter-spacing: .1em;
     }
@@ -181,7 +180,6 @@
             font-weight: 700;
             letter-spacing: .1em;
             font-family: "Crimson Text";
-            text-transform: uppercase;
         }
     }
 
@@ -205,8 +203,9 @@
             justify-content: space-between;
             // margin-right: 110px;
             margin-top: 10px;
-            .filter-button{
-                button{
+
+            .filter-button {
+                button {
                     border: none;
                     background-color: #b97a56;
                     height: 40px;
@@ -246,6 +245,7 @@
             width: 15px;
             border-radius: 50%;
             background: #36b37e;
+            
             cursor: pointer;
             margin-top: -5px;
             position: relative;
@@ -262,19 +262,144 @@
         }
     }
 
-    .category{
+    .category {
         padding: 20px;
         font-family: "Crimson Text";
-        text-transform: uppercase;
         font-weight: 700;
         letter-spacing: .1em;
+
+        .category-header {
+            h6 {
+                font-weight: bold;
+            }
+        }
+
+        .categories {
+            margin-top: 20px;
+
+            ul {
+                list-style: none;
+                padding-left: 0rem;
+                line-height: 30px;
+
+                li {
+                    a {
+                        color: #7b7777ed;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+
     }
-    .tag{
-        padding: 20px;
+
+    .tag {
+        padding: 15px;
         font-family: "Crimson Text";
-        text-transform: uppercase;
         font-weight: 700;
         letter-spacing: .1em;
+
+        .tag-header {
+            h6 {
+                font-weight: bold;
+            }
+        }
+
+        .tags {
+            margin-top: 20px;
+
+            ul {
+                list-style: none;
+                padding-left: 0rem;
+                line-height: 30px;
+
+                li {
+                    a {
+                        color: #7b7777ed;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .top-products {
+        padding: 15px;
+        font-family: "Crimson Text";
+        padding: 12px;
+        letter-spacing: .1em;
+
+        .top-header {
+            h6 {
+                font-weight: bold;
+            }
+        }
+
+        .top-product-detail {
+            margin-top: 20px;
+
+            ul {
+                list-style: none;
+                padding-left: 0rem;
+
+
+                li {
+                    margin-top: 20px;
+
+                    a {
+                        color: #7b7777ed;
+                        text-decoration: none;
+                        display: flex;
+                        width: 76%;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            .product-detail {
+                line-height: 25px;
+
+                .product-name {
+                    margin-top: 20px;
+                }
+
+                .product-rate {
+                    i {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+
+
+        }
+
+
+    }
+
+    .search-inShop {
+        border: 1px solid #80808066;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        margin: 37px 0 0 12px;
+        input{
+            border: none;
+            outline: none;
+        }
+        i{
+            color: #808080ad;
+            font-size: 21px;
+            margin-left: 35px;
+        }
+    }
+    .shop-banner{
+        img{
+            margin: 60px 0 0 13px;
+            max-width: 96%;
+        }
     }
 }
 

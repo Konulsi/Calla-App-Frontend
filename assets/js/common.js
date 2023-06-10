@@ -13,7 +13,7 @@ $(window).scroll(function () {
     let searchInput =$(".search-input")
 
     let logoImg = $(".logo img")
-            if (scroll >= 150) {
+            if (scroll >= 1) {
         header.css({
             'position': 'fixed',
             'top': '0',
