@@ -102,32 +102,49 @@ body {
   color: #b97a56;
   transition: 0.1s;
 }
-.down-navbar .search-input {
-  display: flex;
-  border: 1px solid;
-  border-radius: 9px;
-  width: 220px;
-  align-items: center;
-  padding: 2%;
-  position: relative;
-  right: 25px;
-}
-.down-navbar .search-input input {
-  border: none;
-  outline: none;
-  margin-left: 5px;
-}
-.down-navbar .search-input .close-icon {
-  cursor: pointer;
-}
 .down-navbar .right-icons {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 .down-navbar .right-icons i:hover {
   color: #b97a56 !important;
   transition: 0.1s;
+}
+
+.search-input {
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.3098039216);
+  /* border-radius: 9px; */
+  width: 100%;
+  align-items: center;
+  padding: 2%;
+  position: absolute;
+  /* right: 25px; */
+  height: 50px;
+  /* bottom: 107px; */
+  top: 170px;
+  opacity: 0;
+  transition: 1s;
+  z-index: -5;
+  background-color: white;
+}
+.search-input input {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  width: 100%;
+  margin-left: 60px;
+  font-size: 25px;
+}
+.search-input .close-icon {
+  cursor: pointer;
+  color: rgba(138, 138, 138, 0.5882352941);
+  /* text-align: right; */
+  position: absolute;
+  right: 100px;
+  font-size: 30px;
 }
 
 .responsive-navbar {
@@ -774,17 +791,33 @@ body {
   font-size: 23px;
 }
 
-#blog-header {
-  background-color: #F6F6F6;
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
-#blog-header .blog-header-content {
-  height: 210px;
+
+#about-header-img .about-bg-img {
+  height: 320px;
+  background-size: cover;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Crimson Text";
   font-weight: bold;
+}
+
+.about-big-img {
+  overflow: hidden;
+}
+.about-big-img img {
+  transition: 1s;
+}
+.about-big-img img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 #blog-post-img .mySwiper {
@@ -1522,21 +1555,29 @@ body {
     text-decoration: none;
     color: #b97a56;
   }
-  .responsive-navbar .search-input {
-    width: 215px !important;
-    border: 1px solid black !important;
-    height: 30px !important;
+  .responsive-navbar .search {
+    width: 100% !important;
+    border: 1px solid rgba(0, 0, 0, 0.231372549) !important;
+    height: 40px !important;
     justify-content: space-evenly !important;
     align-items: center !important;
     position: absolute !important;
-    top: 60px !important;
-    right: 37px !important;
-    border-radius: 4px !important;
+    top: 15px !important;
+    /* right: 37px !important; */
+    /* border-radius: 4px !important; */
     background-color: white !important;
   }
-  .responsive-navbar .search-input input {
+  .responsive-navbar .search input {
     outline: none !important;
     border: none !important;
+    margin: 3px 0 0 25px !important;
+  }
+  .responsive-navbar .search i {
+    color: rgba(138, 138, 138, 0.7411764706);
+    position: absolute;
+    right: 45px;
+    top: 10px;
+    font-size: 20px;
   }
   #slider {
     margin-top: 50px;

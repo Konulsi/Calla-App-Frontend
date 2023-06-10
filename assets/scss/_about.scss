@@ -1,7 +1,8 @@
-body{
+body {
     user-select: none;
-    
+
 }
+
 #about-header-img {
     .about-bg-img {
         height: 320px;
@@ -15,17 +16,19 @@ body{
         font-weight: bold;
     }
 }
-    .about-big-img{
-        overflow: hidden;
-        img{
-            transition:  1s;
 
-            &:hover{
+.about-big-img {
+    overflow: hidden;
+
+    img {
+        transition: 1s;
+
+        &:hover {
             transform: scale(1.1);
-                transition:  1s;
-            }
+            transition: 1s;
         }
     }
+}
 
 #about-story {
     margin-top: 140px;
@@ -114,9 +117,9 @@ body{
 }
 
 #successes {
-  
+
     padding: 10%;
-    
+
 
     .mySwiper {
         border: 1px solid #80808057;
@@ -163,5 +166,3 @@ body{
     }
 
 }
-
-

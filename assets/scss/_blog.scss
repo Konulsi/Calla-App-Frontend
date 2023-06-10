@@ -1,8 +1,13 @@
-#blog-header {
-    background-color: #F6F6F6;
+body {
+    user-select: none;
 
-    .blog-header-content {
-        height: 210px;
+}
+
+#about-header-img {
+    .about-bg-img {
+        height: 320px;
+        background-size: cover;
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -10,9 +15,19 @@
         font-family: "Crimson Text";
         font-weight: bold;
     }
+}
 
+.about-big-img {
+    overflow: hidden;
 
+    img {
+        transition: 1s;
 
+        &:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
 }
 
 

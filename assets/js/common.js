@@ -10,6 +10,8 @@ $('#topbtn').click(function () {
 $(window).scroll(function () {
     var header = $('.fixed-nav'),
         scroll = $(window).scrollTop();
+    let searchInput =$(".search-input")
+
     let logoImg = $(".logo img")
             if (scroll >= 150) {
         header.css({
@@ -24,6 +26,9 @@ $(window).scroll(function () {
         logoImg.css({
             'margin-top': '-40px',
             'width': '14%'
+        });
+        searchInput.css({
+            'top': '78px',
         })
     } else {
         header.css({
@@ -35,7 +40,12 @@ $(window).scroll(function () {
             'padding-top': '4%',
             'width': '22%'
         })
+        searchInput.css({
+            'top': '130px',
+        })
     }
+
+    
 });
 
 
@@ -47,18 +57,27 @@ $(document).ready(function () {
     //search
     let searchInput = $(".search-input");
     let rightIcons = $(".right-icons");
+    let navMenu = $(".nav-main-menu");
+    let social = $(".social-icons");
+
+            
+    $(".search-icon").on("click", function (e) {
+        $(rightIcons).css({'opacity':'0'});
+        $(navMenu).css({'opacity':'0'});
+        $(social).css({'opacity':'0'});
+        $(searchInput).css({'opacity':'1','z-index':'5'});
+    })
 
     $(".close-icon").on("click", function () {
-        $(searchInput).addClass("d-none");
-        $(rightIcons).removeClass("d-none");
+        $(rightIcons).css({'opacity':'1'});
+        $(navMenu).css({'opacity':'1'});
+        $(social).css({'opacity':'1'});
+        $(searchInput).css({'opacity':'0','z-index':'-5'});
         $(".search-input input").val("");
     })
 
-    $(".search-icon").on("click", function (e) {
-        e.preventDefault()
-        $(rightIcons).addClass("d-none");
-        $(searchInput).removeClass("d-none");
-    })
+
+
 
     //hamburger-menu
     let hamburgerIcon = document.querySelector(".hamburger-icon i");
@@ -78,19 +97,23 @@ $(document).ready(function () {
         logReg.classList.toggle("d-none");
     })
 
-    //search
-    $(".search").on("click", function (e) {
-        e.preventDefault()
-        $(".search-input").removeClass("d-none");
-    })
-
-    $(".close-icon").on("click", function () {
-        $(".search-input").addClass("d-none");
-        $(".search-input input").val("");
-    })
 
     //responsive search
-    $(".search-input").on("click", function () {
+
+    $(".searchIcon").on("click", function () {
+        $(".right-icons").addClass("d-none");
+        $(".search").removeClass("d-none");
+
+    })
+
+    $(".closeIcon").on("click", function () {
+        $(".right-icons").removeClass("d-none");
+        $(".search").addClass("d-none");
+
+    })
+
+
+    $(".searchIcon").on("click", function () {
         $(".right-icons .icons .log-reg").addClass("d-none");
     })
 
