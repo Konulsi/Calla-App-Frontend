@@ -6,6 +6,43 @@ $('#topbtn').click(function () {
 })
 
 
+
+$(window).scroll(function () {
+    var header = $('.fixed-nav'),
+        scroll = $(window).scrollTop();
+    let logoImg = $(".logo img")
+            if (scroll >= 150) {
+        header.css({
+            'position': 'fixed',
+            'top': '0',
+            'left': '0',
+            'right': '0',
+            'z-index': '99999',
+            'background-color' : 'white',
+            'box-shadow': 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
+        });
+        logoImg.css({
+            'margin-top': '-40px',
+            'width': '14%'
+        })
+    } else {
+        header.css({
+            'position': 'relative',
+            'box-shadow': 'none'
+        });
+        logoImg.css({
+            'margin-top': '0px',
+            'padding-top': '4%',
+            'width': '22%'
+        })
+    }
+});
+
+
+
+
+
+
 $(document).ready(function () {
     //search
     let searchInput = $(".search-input");
