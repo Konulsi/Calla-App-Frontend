@@ -2029,6 +2029,7 @@ body {
 }
 #product-info .product-count {
   display: flex;
+  margin-top: 30px;
 }
 #product-info .product-count .count-input {
   width: 50px !important;
@@ -2055,31 +2056,165 @@ body {
   text-align: center;
   font-size: 25px;
 }
-#product-info .add-card .add-btn-first {
+#product-info .product-count .add-card .add-btn-first {
   position: absolute;
-  left: 18%;
-  top: 45%;
   text-align: center;
-  width: 61%;
-  border: 1px solid #e1a385;
-  height: 15%;
-  padding: 5%;
+  width: 155px;
+  border: 2px solid #e1a385;
+  height: 50px;
+  padding: 1%;
   cursor: pointer !important;
+  margin-left: 32px;
+  margin-top: 11px;
 }
-#product-info .add-card .add-btn-first button {
+#product-info .product-count .add-card .add-btn-first button {
   border: none;
   background-color: transparent;
   color: #e1a385;
 }
-#product-info .add-card .add-btn-second {
-  position: absolute;
-  left: 19%;
-  top: 46%;
-  text-align: center;
-  width: 62%;
-  border: 1px solid #e1a385;
-  height: 15%;
+#product-info .product-count .add-card .add-btn-second {
+  width: 155px;
+  border: 2px solid #e1a385;
+  height: 50px;
   cursor: pointer !important;
+  margin-top: 15px;
+  margin-left: 36px;
+}
+#product-info .product-meta {
+  margin-top: 50px;
+}
+#product-info .product-meta h5 {
+  font-family: "Crimson Text";
+}
+#product-info .product-meta span {
+  font-family: "Open Sans";
+  margin-left: 12px;
+  font-size: 17px;
+  color: rgba(82, 79, 79, 0.9215686275);
+  transition: 0.5s;
+}
+#product-info .product-meta span:hover {
+  color: #b97a56 !important;
+  transition: 0.5s;
+}
+#product-info .product-meta a {
+  margin-left: 10px;
+  transition: 0.5s;
+}
+#product-info .product-meta a i:hover {
+  color: #b97a56 !important;
+  transition: 0.5s;
+}
+#product-info .tab-menu {
+  margin-top: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.1882352941);
+}
+#product-info .tab-menu ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: rgba(237, 237, 237, 0.568627451);
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 600;
+}
+#product-info .tab-menu ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+#product-info .tab-menu ul.tabs li.current {
+  background: #006767;
+  color: #222;
+}
+#product-info .tab-menu .tab-content {
+  display: none;
+  padding: 15px;
+}
+#product-info .tab-menu .tab-content.current {
+  display: inherit;
+}
+#product-info .tab-menu .tab-content.current h6 {
+  font-family: "Crimson Text";
+}
+#product-info .tab-menu .tab-content.current span {
+  margin-left: 15px;
+  font-size: 17px;
+  color: #5c5959;
+}
+#product-info .tab-menu .tab-content.current p {
+  margin: 5px 23px;
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: gray;
+  line-height: 27px;
+}
+#product-info .tab-menu .weight {
+  margin: 28px 26px;
+}
+#product-info .tab-menu .diemention {
+  margin: 28px 26px;
+}
+#product-info .tab-menu .product-rewiev {
+  margin: 28px 26px;
+}
+#product-info .tab-menu .product-rate {
+  margin: 10px 23px;
+}
+#product-info .tab-menu textarea {
+  height: 143px;
+  width: 93%;
+  margin: 0px 23px;
+  border: 1px solid rgba(128, 128, 128, 0.3803921569);
+  padding: 20px;
+  font-size: 15px;
+}
+#product-info .label {
+  display: block;
+  margin: 25px 23px -23px;
+  color: rgba(0, 0, 0, 0.4705882353);
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: gray;
+  line-height: 27px;
+}
+#product-info .label label {
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+#product-info .input {
+  margin: 20px 18px -10px 22px;
+}
+#product-info .input input {
+  height: 60px;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  outline: none;
+  width: 100%;
+  padding: 20px;
+}
+#product-info .submit-button {
+  margin: 35px 20px 10px 24px;
+}
+#product-info .submit-button button {
+  width: 130px;
+  height: 50px;
+  background-color: #b97a56;
+  color: white;
+  border: none;
+  font-family: initial;
+}
+#product-info .submit-button button:hover {
+  color: #fff;
+  background-color: #333;
+  transition: 0.7s;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #e1a385;
+  box-shadow: 0 0 10px #e1a385;
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
