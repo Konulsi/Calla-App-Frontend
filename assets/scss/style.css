@@ -488,6 +488,10 @@ body {
 #blogs .read-more {
   margin-top: 7%;
 }
+#blogs .read-more a {
+  text-decoration: none;
+  color: black;
+}
 
 #gift {
   margin-top: 19%;
@@ -1983,61 +1987,80 @@ body {
   font-weight: bold;
 }
 
+.single-product-main-img img {
+  width: 100%;
+}
+
+.product-images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.product-images .prod-img {
+  width: 205px;
+}
+.product-images .prod-img img {
+  width: 100%;
+}
+
 #product-info {
   margin-top: 140px;
 }
-#product-info .product-name h1 {
+#product-info .right {
+  padding-left: 50px;
+}
+#product-info .right .product-name h1 {
   display: block;
   margin: 0 0 12px;
   font-family: "Crimson Text";
   text-transform: uppercase;
 }
-#product-info .product-price {
+#product-info .right .product-price {
   display: flex;
   font-size: 30px;
   color: #676767;
   font-family: "Crimson Text";
   text-transform: uppercase;
 }
-#product-info .product-price .sale {
+#product-info .right .product-price .sale {
   margin: 0 8px 0 0;
   color: #676767;
 }
-#product-info .product-rate {
+#product-info .right .product-rate {
   margin-top: 10px;
 }
-#product-info .product-rate i {
+#product-info .right .product-rate i {
   font-size: 14px;
   line-height: 25px;
 }
-#product-info .product-rate span {
+#product-info .right .product-rate span {
   font-size: 13px;
   letter-spacing: 2px;
   margin-left: 12px;
   color: #676767;
   font-family: "Crimson Text";
 }
-#product-info .product-description {
+#product-info .right .product-description {
   margin-top: 35px;
 }
-#product-info .product-description p {
+#product-info .right .product-description p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 27px;
   font-weight: 300;
   color: rgba(103, 103, 103, 0.6);
 }
-#product-info .product-count {
+#product-info .right .product-count {
   display: flex;
   margin-top: 30px;
 }
-#product-info .product-count .count-input {
+#product-info .right .product-count .count-input {
   width: 50px !important;
-  height: 77px !important;
+  height: 78px !important;
   text-align: center !important;
   border: 1px solid rgba(128, 128, 128, 0.4509803922);
 }
-#product-info .product-count .icons {
+#product-info .right .product-count .icons {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -2046,17 +2069,17 @@ body {
   border-right: 1px solid rgba(128, 128, 128, 0.4509803922);
   border-bottom: 1px solid rgba(128, 128, 128, 0.4509803922);
 }
-#product-info .product-count .icons .minus {
+#product-info .right .product-count .icons .minus {
   border-bottom: 1px solid rgba(128, 128, 128, 0.4509803922);
   width: 40px;
   text-align: center;
   font-size: 25px;
 }
-#product-info .product-count .icons .plus {
+#product-info .right .product-count .icons .plus {
   text-align: center;
   font-size: 25px;
 }
-#product-info .product-count .add-card .add-btn-first {
+#product-info .right .product-count .add-card .add-btn-first {
   position: absolute;
   text-align: center;
   width: 155px;
@@ -2067,12 +2090,12 @@ body {
   margin-left: 32px;
   margin-top: 11px;
 }
-#product-info .product-count .add-card .add-btn-first button {
+#product-info .right .product-count .add-card .add-btn-first button {
   border: none;
   background-color: transparent;
   color: #e1a385;
 }
-#product-info .product-count .add-card .add-btn-second {
+#product-info .right .product-count .add-card .add-btn-second {
   width: 155px;
   border: 2px solid #e1a385;
   height: 50px;
@@ -2080,36 +2103,36 @@ body {
   margin-top: 15px;
   margin-left: 36px;
 }
-#product-info .product-meta {
+#product-info .right .product-meta {
   margin-top: 50px;
 }
-#product-info .product-meta h5 {
+#product-info .right .product-meta h5 {
   font-family: "Crimson Text";
 }
-#product-info .product-meta span {
+#product-info .right .product-meta span {
   font-family: "Open Sans";
   margin-left: 12px;
   font-size: 17px;
   color: rgba(82, 79, 79, 0.9215686275);
   transition: 0.5s;
 }
-#product-info .product-meta span:hover {
+#product-info .right .product-meta span:hover {
   color: #b97a56 !important;
   transition: 0.5s;
 }
-#product-info .product-meta a {
+#product-info .right .product-meta a {
   margin-left: 10px;
   transition: 0.5s;
 }
-#product-info .product-meta a i:hover {
+#product-info .right .product-meta a i:hover {
   color: #b97a56 !important;
   transition: 0.5s;
 }
-#product-info .tab-menu {
+#product-info .right .tab-menu {
   margin-top: 30px;
   border: 1px solid rgba(128, 128, 128, 0.1882352941);
 }
-#product-info .tab-menu ul.tabs {
+#product-info .right .tab-menu ul.tabs {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -2119,52 +2142,57 @@ body {
   line-height: 27px;
   font-weight: 600;
 }
-#product-info .tab-menu ul.tabs li {
+#product-info .right .tab-menu ul.tabs li {
   background: none;
   color: #222;
   display: inline-block;
   padding: 10px 15px;
   cursor: pointer;
+  transition: 0.5s;
 }
-#product-info .tab-menu ul.tabs li.current {
+#product-info .right .tab-menu ul.tabs li:hover {
+  background: #006767;
+  transition: 0.5s;
+}
+#product-info .right .tab-menu ul.tabs li.current {
   background: #006767;
   color: #222;
 }
-#product-info .tab-menu .tab-content {
+#product-info .right .tab-menu .tab-content {
   display: none;
   padding: 15px;
 }
-#product-info .tab-menu .tab-content.current {
+#product-info .right .tab-menu .tab-content.current {
   display: inherit;
 }
-#product-info .tab-menu .tab-content.current h6 {
+#product-info .right .tab-menu .tab-content.current h6 {
   font-family: "Crimson Text";
 }
-#product-info .tab-menu .tab-content.current span {
+#product-info .right .tab-menu .tab-content.current span {
   margin-left: 15px;
   font-size: 17px;
   color: #5c5959;
 }
-#product-info .tab-menu .tab-content.current p {
+#product-info .right .tab-menu .tab-content.current p {
   margin: 5px 23px;
   font-family: "Open Sans";
   font-size: 17px;
   color: gray;
   line-height: 27px;
 }
-#product-info .tab-menu .weight {
+#product-info .right .tab-menu .weight {
   margin: 28px 26px;
 }
-#product-info .tab-menu .diemention {
+#product-info .right .tab-menu .diemention {
   margin: 28px 26px;
 }
-#product-info .tab-menu .product-rewiev {
+#product-info .right .tab-menu .product-rewiev {
   margin: 28px 26px;
 }
-#product-info .tab-menu .product-rate {
+#product-info .right .tab-menu .product-rate {
   margin: 10px 23px;
 }
-#product-info .tab-menu textarea {
+#product-info .right .tab-menu textarea {
   height: 143px;
   width: 93%;
   margin: 0px 23px;
@@ -2172,7 +2200,7 @@ body {
   padding: 20px;
   font-size: 15px;
 }
-#product-info .label {
+#product-info .right .label {
   display: block;
   margin: 25px 23px -23px;
   color: rgba(0, 0, 0, 0.4705882353);
@@ -2181,34 +2209,235 @@ body {
   color: gray;
   line-height: 27px;
 }
-#product-info .label label {
+#product-info .right .label label {
   color: rgba(0, 0, 0, 0.4705882353);
 }
-#product-info .input {
+#product-info .right .input {
   margin: 20px 18px -10px 22px;
 }
-#product-info .input input {
+#product-info .right .input input {
   height: 60px;
   border: 1px solid rgba(128, 128, 128, 0.35);
   outline: none;
   width: 100%;
   padding: 20px;
 }
-#product-info .submit-button {
+#product-info .right .submit-button {
   margin: 35px 20px 10px 24px;
 }
-#product-info .submit-button button {
+#product-info .right .submit-button button {
   width: 130px;
   height: 50px;
   background-color: #b97a56;
   color: white;
   border: none;
   font-family: initial;
-}
-#product-info .submit-button button:hover {
-  color: #fff;
-  background-color: #333;
   transition: 0.7s;
+  border-radius: 5px;
+}
+#product-info .right .submit-button button:hover {
+  color: #fff;
+  background-color: #e38c5a;
+  transition: 0.7s;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #e1a385;
+  box-shadow: 0 0 10px #e1a385;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#detail-header-img .detail-bg-img {
+  height: 320px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Crimson Text";
+  font-weight: bold;
+}
+
+.single-blog-main-img img {
+  width: 100%;
+}
+
+.blog-post-text {
+  margin-top: 50px;
+}
+.blog-post-text .post-info-top {
+  justify-content: space-between !important;
+  display: flex !important;
+  width: 340px !important;
+}
+.blog-post-text .post-info-top .post-info-author span {
+  color: #b97a56;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.blog-post-text .post-info-top .post-info-author span:hover {
+  color: black;
+}
+.blog-post-text .post-info-top .post-info-author span::after {
+  content: " /";
+}
+.blog-post-text .post-info-top .post-date span {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.blog-post-text .post-info-top .post-date span:hover {
+  color: #b97a56;
+}
+.blog-post-text .post-info-top .post-date span::after {
+  content: " /";
+}
+.blog-post-text .post-info-top .post-info-category span {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #b97a56;
+  transition: 0.3s;
+}
+.blog-post-text .post-info-top .post-info-category span:hover {
+  color: black;
+}
+.blog-post-text .post-title h3 {
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 34px;
+  margin-top: 10px;
+}
+.blog-post-text .post-title h3 a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+.blog-post-text .post-title h3 a:hover {
+  color: #b97a56;
+}
+.blog-post-text .post-description {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: rgba(103, 103, 103, 0.6901960784);
+  -webkit-font-smoothing: antialiased;
+}
+.blog-post-text .blog-social {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  gap: 10px;
+}
+.blog-post-text .post-readmore-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.blog-post-text .post-readmore-btn a:hover {
+  color: #b97a56;
+}
+
+.comment textarea {
+  height: 143px;
+  width: 93%;
+  margin: 0px 23px;
+  border: 1px solid rgba(128, 128, 128, 0.3803921569);
+  padding: 20px;
+  font-size: 15px;
+}
+.comment .label {
+  display: block;
+  margin: 25px 23px -23px;
+  color: rgba(0, 0, 0, 0.4705882353);
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: gray;
+  line-height: 27px;
+}
+.comment .label label {
+  color: rgba(0, 0, 0, 0.4705882353);
+}
+.comment .input {
+  margin: 20px 18px -10px 22px;
+}
+.comment .input input {
+  height: 60px;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  outline: none;
+  width: 100%;
+  padding: 20px;
+}
+.comment .submit-button {
+  margin: 35px 20px 10px 24px;
+}
+.comment .submit-button button {
+  width: 130px;
+  height: 50px;
+  background-color: #b97a56;
+  color: white;
+  border: none;
+  font-family: initial;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+.comment .submit-button button:hover {
+  color: #fff;
+  background-color: #e38c5a;
+  transition: 0.7s;
+}
+
+.right {
+  padding-left: 30px;
+}
+.right .blog-author {
+  border: 1px solid #b97a56;
+}
+.right .blog-author .author-img {
+  padding: 30px 50px 30px 50px;
+}
+.right .blog-author .author-img img {
+  border-radius: 50%;
+}
+.right .blog-author .author-img .author-detail .author-name {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Alex Brush", cursive;
+}
+.right .blog-author .author-img .author-detail .author-name h5 {
+  font-size: 34px;
+}
+.right .blog-author .author-img .author-detail .author-email {
+  text-align: center;
+  font-size: 17px;
+  color: #b97a56;
+  font-weight: 400;
+}
+.right .blog-author .author-img .author-detail .author-social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 textarea:focus {
