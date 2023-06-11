@@ -165,8 +165,6 @@
                             <li><a href="Register.html">Register</a></li>
                         </ul>
 
-                        <!-- <li><a href=""><i class="fa-solid fa-magnifying-glass fa-flip-horizontal search"></i></a>
-                        </li> -->
                         <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal searchIcon"></i></a></li>
                         <li><a href="Wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
                         <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -177,26 +175,25 @@
                 <div class="hamburger-menu-list">
                     <ul class="nav-menu close">
                         <li>
-                            <a href="Home.html"><span>Home</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="Home.html"><span>Home</span></a>
                         </li>
                         <li>
-                            <a href="About.html"><span>About</span><i class="fa-solid fa-chevron-right"></i></a>
-                        </li>
-
-                        <li>
-                            <a href="Blog.html"><span>Blog</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="About.html"><span>About</span></a>
                         </li>
 
                         <li>
-                            <a href="Shop.html"><span>Shop</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="Blog.html"><span>Blog</span></a>
+                        </li>
+
+                        <li>
+                            <a href="Shop.html"><span>Shop</span></a>
                         </li>
                         <li>
-                            <a href="Contact.html"><span>Contact</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <a href="Contact.html"><span>Contact</span></a>
                         </li>
 
                     </ul>
                 </div>
-
 
 
 
@@ -207,7 +204,59 @@
 
     <!-- Main star -->
     <main>
+        <section id="products">
+            <div class="container">
+                <div class="basket-products">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Image</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Setting</th>
+                            </tr>
 
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>
+                                    <img src="./assets/images/product-img-cactusPot.jpg" alt="">
+                                </td>
+                                <td>
+                                    <span>Cactus</span>
+                                </td>
+                                <td>
+                                    <span>£<span>50</span></span>
+                                </td>
+                                <td>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </td>
+
+                            </tr>
+                            
+                        </tbody>
+
+                    </table>
+                    <div class="cantinue-btn d-flex justify-content-between ">
+                        <button class="btn btn-primary shop"><a href="Shop.html">Continue shopping</a></button>
+                    </div>
+                </div>
+
+                <div class="show-alert d-none">
+                    <div class="alert">
+                        <button class="btn btn-danger btn-red">YOU HAVE NO ITEMS IN YOUR SHOPPING CART.</button>
+
+                    </div>
+                    <div class="button-shop">
+                        <button class="btn btn-primary btn-orange">Continue shopping</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
 
     </main>
     <!-- Main end -->
