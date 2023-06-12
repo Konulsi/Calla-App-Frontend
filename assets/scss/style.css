@@ -357,7 +357,7 @@ body {
   transition: 1s;
 }
 #products-slider .product-card:hover .product-img {
-  filter: blur(10px);
+  filter: blur(20px);
 }
 #products-slider .product-card:hover .product-img-hover {
   opacity: 1;
@@ -733,12 +733,9 @@ body {
   color: #909090;
   text-decoration: none;
 }
-#footer .footer-second-list .footer-text {
-  padding: 5%;
-  color: #909090;
-}
-#footer .footer-second-list .footer-payment-img {
-  padding-left: 5%;
+#footer .footer-second-list .quick-link-list ul a:hover {
+  color: #b97a56 !important;
+  transition: 0.6s;
 }
 #footer .footer-third-list {
   padding: 21% 0 30% 0;
@@ -760,10 +757,18 @@ body {
   text-decoration: none;
   margin-left: 10px;
 }
+#footer .footer-third-list .store-list ul a:hover {
+  color: #b97a56 !important;
+  transition: 0.6s;
+}
 #footer .footer-third-list .store-list ul .social {
   display: flex;
   justify-content: revert;
   margin-top: 10px;
+}
+#footer .footer-third-list .store-list ul .social li a i:hover {
+  color: #b97a56 !important;
+  transition: 0.6s;
 }
 #footer .footer-fourth-list {
   padding: 14% 0 30% 0;
@@ -1133,7 +1138,7 @@ body {
   margin-right: 5%;
 }
 #shop-content-header .product-card:hover .product-img {
-  filter: blur(10px);
+  filter: blur(20px);
 }
 #shop-content-header .product-card:hover .product-img-hover {
   opacity: 1;
@@ -2241,6 +2246,84 @@ body {
   transition: 0.7s;
 }
 
+#related .related-title h4 {
+  display: block;
+  margin: 150px 0 30px;
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  color: #545050;
+}
+#related .related-product .product-card {
+  width: 340px !important;
+  position: relative;
+  margin-top: 50px;
+}
+#related .related-product .product-card .product-img {
+  width: 94%;
+}
+#related .related-product .product-card .product-img img {
+  width: 100%;
+}
+#related .related-product .product-card .product-img-hover {
+  border: 2px solid #e1a385;
+  position: absolute;
+  top: 0%;
+  height: 84%;
+  width: 94%;
+  opacity: 0;
+  transition: 0.5s;
+}
+#related .related-product .product-card .product-img-hover .add-btn-first {
+  position: absolute;
+  left: 18%;
+  top: 45%;
+  text-align: center;
+  width: 61%;
+  border: 1px solid #e1a385;
+  height: 15%;
+  padding: 5%;
+  cursor: pointer !important;
+}
+#related .related-product .product-card .product-img-hover .add-btn-first button {
+  border: none;
+  background-color: transparent;
+  color: #e1a385;
+}
+#related .related-product .product-card .product-img-hover .add-btn-second {
+  position: absolute;
+  left: 19%;
+  top: 46%;
+  text-align: center;
+  width: 62%;
+  border: 1px solid #e1a385;
+  height: 15%;
+  cursor: pointer !important;
+}
+#related .related-product .product-card .product-name {
+  text-align: center !important;
+  margin-top: 5% !important;
+}
+#related .related-product .product-card .product-name a {
+  text-decoration: none;
+  color: rgb(90, 82, 82);
+  font-size: 18px;
+  font-family: -webkit-body;
+  font-weight: 600;
+  margin-right: 5%;
+}
+#related .related-product .product-card .product-price {
+  text-align: center;
+  color: rgba(106, 106, 106, 0.9294117647);
+  font-size: 19px;
+  margin-right: 5%;
+}
+#related .related-product .product-card:hover .product-img {
+  filter: blur(20px);
+}
+#related .related-product .product-card:hover .product-img-hover {
+  opacity: 1;
+}
+
 textarea:focus {
   outline: none !important;
   border-color: #e1a385;
@@ -2433,11 +2516,99 @@ body {
   font-size: 17px;
   color: #b97a56;
   font-weight: 400;
+  cursor: pointer;
 }
 .right .blog-author .author-img .author-detail .author-social {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
+}
+.right .lates-posts {
+  margin-top: 50px;
+}
+.right .lates-posts h4 {
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 17px;
+  color: #514c4c;
+}
+.right .lates-posts .lates-post {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  gap: 16px;
+}
+.right .lates-posts .lates-post .post-img {
+  width: 130px;
+}
+.right .lates-posts .lates-post .post-img img {
+  width: -webkit-fill-available;
+}
+.right .lates-posts .lates-post .post-info {
+  font-size: 13px;
+  padding: 5px 0;
+}
+.right .lates-posts .lates-post .post-info .lates-title {
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.42em;
+}
+.right .lates-posts .lates-post .post-info .lates-date {
+  display: block;
+  margin: 10px 0 0;
+  color: #676767;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+}
+.right .category {
+  padding: 0px;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+}
+.right .category .category-header h6 {
+  font-weight: bold;
+}
+.right .category .categories {
+  margin-top: 20px;
+}
+.right .category .categories ul {
+  list-style: none;
+  padding-left: 0rem;
+  line-height: 30px;
+}
+.right .category .categories ul li a {
+  color: rgba(123, 119, 119, 0.9294117647);
+  text-decoration: none;
+}
+.right .tag {
+  padding: 0px;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+}
+.right .tag .tag-header h6 {
+  font-weight: bold;
+}
+.right .tag .tags {
+  margin-top: 20px;
+}
+.right .tag .tags ul {
+  list-style: none;
+  padding-left: 0rem;
+  line-height: 30px;
+}
+.right .tag .tags ul li a {
+  color: rgba(123, 119, 119, 0.9294117647);
+  text-decoration: none;
 }
 
 textarea:focus {

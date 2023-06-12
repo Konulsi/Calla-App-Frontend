@@ -464,7 +464,7 @@ body {
             transition: 1s;
 
             .product-img {
-                filter: blur(10px);
+                filter: blur(20px);
             }
 
             .product-img-hover {
@@ -967,18 +967,15 @@ body {
                 a {
                     color: #909090;
                     text-decoration: none;
+                    &:hover{
+                        color: #b97a56 !important;
+                        transition: 0.6s;
+                    }
                 }
             }
         }
 
-        .footer-text {
-            padding: 5%;
-            color: #909090;
-        }
 
-        .footer-payment-img {
-            padding-left: 5%;
-        }
     }
 
     .footer-third-list {
@@ -1003,12 +1000,28 @@ body {
                     color: #909090;
                     text-decoration: none;
                     margin-left: 10px;
+                    &:hover{
+                        color: #b97a56 !important;
+                        transition: 0.6s;
+                    }
                 }
 
                 .social {
                     display: flex;
                     justify-content: revert;
                     margin-top: 10px;
+                    li{
+                        a{
+                            i{
+                                &:hover{
+                                    color: #b97a56 !important;
+                                    transition: 0.6s;
+                                }
+                            }
+                        }
+                    }
+                    
+
                 }
             }
         }
