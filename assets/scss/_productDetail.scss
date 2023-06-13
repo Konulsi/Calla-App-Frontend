@@ -229,7 +229,7 @@ body {
 
             ul.tabs li.current {
                 background: #006767;
-                color: #222;
+                color: white;
 
             }
 
@@ -260,12 +260,18 @@ body {
                 }
             }
 
-            .weight {
+            .size {
                 margin: 28px 26px;
+                justify-content: start;
+                align-items: baseline;
+
             }
 
-            .diemention {
-                margin: 28px 26px;
+            .color {
+                margin: 28px 26px;               
+                 justify-content: start;
+                align-items: baseline;
+
             }
 
             .product-rewiev {
