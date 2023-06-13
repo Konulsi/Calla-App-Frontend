@@ -124,9 +124,11 @@ body {
             font-family: "Open Sans", sans-serif;
 
             span {
+                transition: 0.3s;
+
                 &:hover {
                     color: #b97a56;
-                    transition: 0.1s;
+                    transition: 0.3s;
                 }
             }
         }
@@ -140,9 +142,10 @@ body {
         cursor: pointer;
 
         i {
+            transition: 0.3s;
             &:hover {
                 color: #b97a56 !important;
-                transition: 0.1s;
+                transition: 0.3s;
             }
         }
 
