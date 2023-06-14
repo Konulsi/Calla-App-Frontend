@@ -1,5 +1,6 @@
 @media (min-width:0px) and (max-width:850px) {
 
+    //home
     .responsive-navbar {
         .hamburger-icon {
             i {
@@ -80,7 +81,8 @@
                 border: none !important;
                 margin: 3px 0 0 25px !important;
             }
-            i{
+
+            i {
                 color: #8a8a8abd;
                 position: absolute;
                 right: 45px;
@@ -252,7 +254,7 @@
     }
 
     #advertising {
-        margin-top: 1500px !important;
+        margin-top: 1430px !important;
 
         .adverb-img {
             padding: 35px 42px 20px 0 !important;
@@ -323,6 +325,10 @@
         }
     }
 
+    #brands {
+        margin: 60px 0 60px 0 !important;
+    }
+
     #footer {
         .footer-first-list {
             padding: 20% 0 0% 0 !important;
@@ -346,12 +352,123 @@
     }
 
 
+    //about
+
+    #about-header-img {
+        .about-bg-img {
+            height: 170px !important;
+            background-size: contain !important;
+            margin-top: -7px !important;
+
+            h1 {
+                font-size: 30px !important;
+                margin-top: 75px !important;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    }
+
+    #about-story {
+        margin-top: 70px !important;
+
+        .story-content {
+            padding: 0px !important;
+            margin-top: 25px !important;
+
+            .story-logo {
+                img {
+                    width: 80px !important;
+                }
+            }
+        }
+
+    }
+
+    #about-strategy {
+        margin-top: 0 !important;
+
+        .strategy-content {
+            padding: 0px !important;
+
+            .strategy-logo {
+                img {
+                    width: 80px !important;
+                }
+            }
+        }
+    }
+
+
+    #our-success {
+        .success-content {
+            top: 5px !important;
+
+            h4 {
+                font-size: 40px !important;
+            }
+
+            h2 {
+                font-size: 35px !important;
+            }
+
+            .arrival-img {
+                img {
+                    width: 38% !important;
+                }
+            }
+        }
+    }
+
+    #successes {
+        padding: 0px !important;
+
+        .mySwiper {
+            height: 500px !important;
+        }
+    }
+
+    //blog
+    #blog-post-img {
+        .mySwiper {
+            height: 300px !important;
+
+            .swiper-slide {
+                img {
+                    width: 100% !important;
+                }
+
+
+            }
+        }
+
+        .blog-post-text {
+            .post-info-top {
+                display: block !important;
+                width: 200px !important;
+            }
+
+            .post-title {
+                h3 {
+                    font-weight: 500;
+                    font-size: 28px;
+                }
+            }
+
+        }
+    }
+
+
 }
 
 
 
 
 @media (min-width:750px) and (max-width:1200px) {
+
+    //home
     .responsive-navbar {
         .hamburger-icon {
             i {
@@ -416,7 +533,7 @@
     #arrivals {
         .arrivals-content {
             top: 40px !important;
-        
+
             h2 {
                 font-size: 40px !important;
             }
@@ -432,7 +549,7 @@
 
     }
 
-    #products-slider{
+    #products-slider {
         top: 50px !important;
 
     }
@@ -479,6 +596,7 @@
 
     #blog {
         top: 130px !important;
+
         .blog-header-content {
             h2 {
                 font-size: 40px !important;
@@ -495,7 +613,7 @@
 
     }
 
-    #blogs{
+    #blogs {
         top: 120px !important;
     }
 
@@ -505,6 +623,7 @@
 
     #our-team {
         margin-top: 100px !important;
+
         .members {
             top: 225px !important;
             left: 11% !important;
@@ -518,6 +637,7 @@
 
     #decor {
         top: 40px !important;
+
         .decor-header-content {
             h2 {
                 font-size: 40px !important;
@@ -534,14 +654,14 @@
 
     }
 
-    #decors{
+    #decors {
         top: 40px !important;
     }
 
 
     #news-letter {
-        
-    margin-top: 20% !important;
+
+        margin-top: 20% !important;
 
 
         .news-letter-content {
@@ -549,15 +669,17 @@
                 display: flex !important;
                 padding: 0px !important;
                 margin-bottom: 30px;
-                .email-input{
-                    input{
+
+                .email-input {
+                    input {
                         margin-left: 0px !important;
                         height: 50px !important;
                         width: 300px !important;
                     }
                 }
-                .subscribe-btn{
-                    input{
+
+                .subscribe-btn {
+                    input {
                         margin: 0px !important;
                         height: 50px !important;
                         width: 160px !important;
@@ -567,16 +689,106 @@
         }
     }
 
+    #brands {
+        margin: 90px 0 -20px 0 !important;
+    }
 
-    #footer{
+
+    #footer {
         margin-top: 14% !important;
         padding: 35px !important;
+
         .footer-second-list {
             padding: 20% 0 0 0 !important;
         }
+
         .footer-fourth-list {
             padding: 9% 0 30% 0 !important;
         }
     }
 
+
+    //about
+    #about-header-img {
+        .about-bg-img {
+            margin-top: 78px !important;
+
+            h1 {
+                margin-top: 0px !important;
+            }
+
+            img {
+                display: block;
+            }
+
+        }
+    }
+
+    #about-story {
+
+        .story-content {
+            .story-logo {
+                img {
+                    width: 100px !important;
+                }
+            }
+        }
+
+    }
+
+    #about-strategy {
+        .strategy-content {
+            .strategy-logo {
+                img {
+                    width: 100px !important;
+                }
+            }
+        }
+    }
+
+
+    #our-success {
+        .success-content {
+            h4 {
+                font-size: 45px !important;
+            }
+
+            h2 {
+                font-size: 40px !important;
+            }
+
+            .arrival-img {
+                img {
+                    width: 20% !important;
+                }
+            }
+        }
+    }
+
+    #successes {
+        .mySwiper {
+            height: 280px !important;
+        }
+    }
+
+
+    //blog
+
+    #blog-post-img{
+        .right{
+            padding: 0px 50px 0 50px !important;
+            .blog-author{
+                .author-img {
+                    padding: 50px 130px 50px 130px !important;
+                }
+            } 
+
+          .lates-posts{
+            .lates-post {
+                justify-content: initial;
+                gap: 25px;
+          }
+          } 
+        }
+    }
 }
