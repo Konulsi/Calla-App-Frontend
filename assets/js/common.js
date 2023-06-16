@@ -26,7 +26,7 @@ $(window).scroll(function () {
             // 'background': 'transparent'
         });
         logoImg.css({
-            'margin-top': '-40px',
+            'margin-top': '0px',
             'width': '14%'
         });
         searchInput.css({
