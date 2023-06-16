@@ -458,7 +458,119 @@
             }
 
         }
+
+        .instagram {
+            .instagram-photo {
+                .images {
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    width: 100% !important;
+
+                    .instagram-img {
+                        height: 170px;
+                        width: 160px;
+                    }
+                }
+            }
+
+        }
     }
+
+    //shop
+
+    #shop-header-img{
+        .shop-bg-img {
+            height: 170px !important;
+            background-size: contain !important;
+            margin-top: -7px !important;
+
+            h1 {
+                font-size: 30px !important;
+                margin-top: 75px !important;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    }
+    #shop-content-header{
+        .show-result{
+            margin-top: -50px;
+            p{
+                width: 100%;
+            }
+        }
+        .sort{
+            float: left;
+        }
+        .product-price{
+            margin-top: 100px;
+
+        }
+
+        .product-card{
+           .product-price{
+            margin-top: 0px;
+            font-size: 17px;
+           }
+        }
+
+        .top-products{
+
+            .top-product-detail{
+
+            }
+            .product-price{
+                margin-top: 0px;
+            }
+        }
+        .shop-banner{
+            img{
+                margin: 60px 0 60px 3px;
+            }
+        }
+    }
+
+    //contact
+
+    #contact-header-img{
+        .contact-bg-img {
+            height: 170px !important;
+            background-size: contain !important;
+            margin-top: -7px !important;
+
+            h1 {
+                font-size: 23px !important;
+                margin-top: 75px !important;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    }
+
+    #contact-content{
+        .contact-right{
+            padding: 0px;
+            .contact-right-header{
+            padding: 0px;
+            text-align: start;
+            }
+        }
+        .contact-title{
+            margin-top: 50px;
+            h3{
+                font-weight: 300 !important;
+            }
+        }
+        .store-name{
+            margin-top: 50px;
+            
+        }
+    }
+
 
 
 }
@@ -774,21 +886,90 @@
 
     //blog
 
-    #blog-post-img{
-        .right{
+    #blog-post-img {
+        .right {
             padding: 0px 50px 0 50px !important;
-            .blog-author{
-                .author-img {
-                    padding: 50px 130px 50px 130px !important;
-                }
-            } 
 
-          .lates-posts{
-            .lates-post {
-                justify-content: initial;
-                gap: 25px;
-          }
-          } 
+            .blog-author {
+                display: flex;
+                justify-content: center;
+
+                .author-img {
+                    width: 400px;
+                    padding: 20px 100px 20px 100px !important;
+                }
+            }
+
+            .lates-posts {
+                .lates-post {
+                    justify-content: initial;
+                    gap: 25px;
+                }
+            }
+
+
+            .instagram {
+                .instagram-header {
+                    text-align: center;
+                }
+                .instagram-photo {
+                    .images{
+                        justify-content: center !important;
+                        gap: 25px  !important;
+                    }
+
+                }
+            }
+
+
+
+        }
+    }
+
+
+    //shop
+
+    #shop-content-header{
+        .show-result{
+            margin-top: 0px;
+            p{
+                width: 100%;
+            }
+        }
+        .sort{
+            float: left;
+        }
+        .product-price{
+            margin-top: 100px;
+
+        }
+
+        .product-card{
+            .product-price{
+             margin-top: 0px;
+             font-size: 17px;
+            }
+         }
+
+        .top-products{
+
+            .top-product-detail{
+                ul{
+                    li{
+                        a{
+                            width: 35%;
+                        }
+                    }
+                }
+            }
+            .product-price{
+                margin-top: 0px;
+            }
+        }
+        .shop-banner{
+            img{
+                margin: 60px 0 60px 30px;
+            }
         }
     }
 }

@@ -22,6 +22,8 @@ $(window).scroll(function () {
             'z-index': '99999',
             'background-color' : 'white',
             'box-shadow': 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
+            // 'backdrop-filter':'blur(10px)',
+            // 'background': 'transparent'
         });
         logoImg.css({
             'margin-top': '-40px',

@@ -38,12 +38,13 @@ body {
 
 
     }
+
     .blog-post-text {
 
         .post-info-top {
             justify-content: space-between;
-            display: flex ;
-            width: 340px ;
+            display: flex;
+            width: 340px;
 
             .post-info-author {
                 span {
@@ -53,7 +54,8 @@ body {
                     font-weight: 600;
                     text-transform: uppercase;
                     transition: 0.3s;
-                    &:hover{
+
+                    &:hover {
                         color: black;
                     }
                 }
@@ -70,7 +72,8 @@ body {
                     font-weight: 600;
                     text-transform: uppercase;
                     transition: 0.3s;
-                    &:hover{
+
+                    &:hover {
                         color: #b97a56;
                     }
                 }
@@ -88,7 +91,8 @@ body {
                     text-transform: uppercase;
                     color: #b97a56;
                     transition: 0.3s;
-                    &:hover{
+
+                    &:hover {
                         color: black;
                     }
                 }
@@ -103,16 +107,17 @@ body {
                 font-weight: 600;
                 letter-spacing: .05em;
                 font-size: 34px;
-                
+
                 margin-top: 10px;
 
-                a{
-                text-decoration: none;
-                color: #333;
-                transition: 0.3s;
-                &:hover{
-                    color: #b97a56;
-                }
+                a {
+                    text-decoration: none;
+                    color: #333;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #b97a56;
+                    }
                 }
             }
         }
@@ -126,8 +131,9 @@ body {
             -webkit-font-smoothing: antialiased;
 
         }
-        .post-readmore-btn{
-            a{
+
+        .post-readmore-btn {
+            a {
                 text-decoration: none;
                 color: black;
                 font-size: 12px;
@@ -135,7 +141,8 @@ body {
                 font-weight: 600;
                 text-transform: uppercase;
                 transition: 0.3s;
-                &:hover{
+
+                &:hover {
                     color: #b97a56;
                 }
             }
@@ -145,27 +152,28 @@ body {
     .right {
         padding-left: 0px;
         margin-top: 50px;
+
         .blog-author {
             border: 1px solid #b97a56;
-    
+
             .author-img {
                 padding: 30px 50px 30px 50px;
-    
+
                 img {
                     border-radius: 50%;
                 }
-    
+
                 .author-detail {
                     .author-name {
                         text-align: center;
                         margin-top: 30px;
                         font-family: "Alex Brush", cursive;
-    
+
                         h5 {
                             font-size: 34px;
                         }
                     }
-    
+
                     .author-email {
                         text-align: center;
                         font-size: 17px;
@@ -173,12 +181,12 @@ body {
                         font-weight: 400;
                         cursor: pointer;
                     }
-    
+
                     .author-social {
                         display: flex;
                         justify-content: space-evenly;
                         margin-top: 20px;
-    
+
                         a {
                             i {
                                 &:hover {
@@ -189,13 +197,13 @@ body {
                         }
                     }
                 }
-    
+
             }
         }
-    
+
         .lates-posts {
             margin-top: 50px;
-    
+
             h4 {
                 font-family: "Crimson Text";
                 text-transform: uppercase;
@@ -204,39 +212,39 @@ body {
                 font-size: 17px;
                 color: #514c4c;
             }
-    
+
             .lates-post {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
                 padding: 10px 0;
                 gap: 16px;
-    
+
                 .post-img {
                     width: 130px;
-    
+
                     img {
                         width: -webkit-fill-available;
                     }
                 }
-    
+
                 .post-info {
                     font-size: 13px;
                     padding: 5px 0;
-    
+
                     .lates-title {
                         color: #333;
                         font-size: 15px;
                         font-weight: 300;
                         line-height: 1.42em;
                         transition: 0.6s;
-    
+
                         &:hover {
                             transition: 0.6s;
                             color: #cf8357 !important;
                         }
                     }
-    
+
                     .lates-date {
                         display: block;
                         margin: 10px 0 0;
@@ -249,34 +257,34 @@ body {
                 }
             }
         }
-    
+
         .category {
             padding: 0px;
             font-family: "Crimson Text";
             font-weight: 700;
             letter-spacing: 0.1em;
             margin-top: 50px;
-    
+
             .category-header {
                 h6 {
                     font-weight: bold;
                 }
             }
-    
+
             .categories {
                 margin-top: 20px;
-    
+
                 ul {
                     list-style: none;
                     padding-left: 0rem;
                     line-height: 30px;
-    
+
                     li {
                         a {
                             color: #7b7777ed;
                             text-decoration: none;
                             transition: 0.6s;
-    
+
                             &:hover {
                                 transition: 0.6s;
                                 color: #cf8357 !important;
@@ -285,39 +293,39 @@ body {
                     }
                 }
             }
-    
-    
+
+
         }
-    
+
         .tag {
             padding: 0px;
             font-family: "Crimson Text";
             font-weight: 700;
             letter-spacing: 0.1em;
             margin-top: 50px;
-    
+
             .tag-header {
                 h6 {
                     font-weight: bold;
                 }
             }
-    
+
             .tags {
                 margin-top: 20px;
-    
+
                 ul {
                     list-style: none;
                     padding-left: 0rem;
                     line-height: 30px;
                     display: flex;
                     flex-wrap: wrap;
-    
+
                     li {
                         a {
                             color: #7b7777ed;
                             text-decoration: none;
                             transition: 0.6s;
-    
+
                             &:hover {
                                 transition: 0.6s;
                                 color: #cf8357 !important;
@@ -327,59 +335,65 @@ body {
                 }
             }
         }
-    
-    
-    
+
+
+
         .instagram {
             padding: 0px;
             font-family: "Crimson Text";
             font-weight: 700;
             letter-spacing: 0.1em;
             margin-top: 50px;
-    
+
             .instagram-header {
                 h6 {
                     font-weight: bold;
                 }
             }
-    
+
             .instagram-photo {
                 margin-top: 30px;
-    
+
+
                 .instagram-img {
-                    height: 105px;
+                    height: 115px;
                     width: 100px;
-    
+
                     img {
                         width: 100%;
-    
+
                     }
                 }
-    
+
             }
-    
-    
+
+
         }
-    
-        
+
+
     }
 
 }
 
 
 
+.page-number {
+    margin-top: 50px;
 
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-size: 20px;
+        font-family: "Crimson Text";
 
-.load-more{
-    display: flex;
-    justify-content: center;
-    button{
-        background-color: rgb(205 112 60 / 81%);
-        color: white;
-        border: none;
-        width: 101px;
-        height: 40px;
-        border-radius: 7px;
+        li {
+            a {
+                text-decoration: none;
+                // color: #e1a385;
+                color: #676767bf
+            }
+        }
     }
 }
-
