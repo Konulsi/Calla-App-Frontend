@@ -110,6 +110,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   cursor: pointer;
+  position: relative;
 }
 .down-navbar .right-icons i {
   transition: 0.3s;
@@ -118,10 +119,19 @@ body {
   color: #b97a56 !important;
   transition: 0.3s;
 }
-.down-navbar .right-icons span {
-  position: relative;
+.down-navbar .right-icons .basket-count {
+  position: absolute;
   right: 22px;
-  bottom: 18px;
+  bottom: 10px;
+  color: #f3995e;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: math;
+}
+.down-navbar .right-icons .wishlist-count {
+  position: absolute;
+  right: 70px;
+  bottom: 10px;
   color: #f3995e;
   font-size: 18px;
   font-weight: 600;
