@@ -161,6 +161,38 @@ body {
 
                 }
             }
+
+            .add-wishlist {
+
+                .add-btn-first {
+                    position: absolute;
+                    text-align: center;
+                    width: 155px;
+                    border: 2px solid #e1a385;
+                    height: 50px;
+                    padding: 1%;
+                    cursor: pointer !important;
+                    margin-left: 32px;
+                    margin-top: 11px;
+
+                    button {
+                        border: none;
+                        background-color: transparent;
+                        color: #e1a385;
+                    }
+                }
+
+                .add-btn-second {
+
+                    width: 155px;
+                    border: 2px solid #e1a385;
+                    height: 50px;
+                    cursor: pointer !important;
+                    margin-top: 15px;
+                    margin-left: 36px;
+
+                }
+            }
         }
 
         .product-meta {
@@ -290,6 +322,7 @@ body {
                 border: 1px solid #80808061;
                 padding: 20px;
                 font-size: 15px;
+                caret-color: #e1a385;
             }
 
 
@@ -319,7 +352,7 @@ body {
                 border: 1px solid rgb(128 128 128 / 35%);
                 outline: none;
                 width: 100%;
-
+                caret-color: #e1a385;
                 padding: 20px;
             }
         }
@@ -386,6 +419,13 @@ body {
                 opacity: 0;
                 transition: 0.5s;
 
+                i{
+                    position: absolute;
+                    right: 17px;
+                    top: 17px;
+                    font-size: 20px;
+                    color: #e1a385;
+                }
                 .add-btn-first {
                     position: absolute;
                     left: 18%;
@@ -462,7 +502,7 @@ textarea:focus {
 }
 
 
-input:focus {
-    border-color: #e1a385;
-    box-shadow: 0 0 10px #e1a385;
-}
+// input:focus {
+//     border-color: #e1a385;
+//     box-shadow: 0 0 10px #e1a385;
+// }

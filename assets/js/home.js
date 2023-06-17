@@ -21,7 +21,6 @@ var swiper = new Swiper(".mySwiper", {
 
 //product slider
 $(function () {
-  $('.product-cards').off('beforeChange');
   $('.product-cards').slick({
     dots: true,
     infinite: false,
@@ -65,7 +64,7 @@ $(document).ready(function () {
   $('.brands-list ').slick({
     dots: true,
     infinite: true,
-    speed: 900,
+    speed: 300,
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,

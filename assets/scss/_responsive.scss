@@ -135,14 +135,14 @@
             .product-card {
                 .product-img-hover {
 
-                    height: 79%;
-                    width: 2.3%;
+                    height: 82%;
+                    width: 4.2%;
 
                     .add-btn-first {
-                        padding: 0px;
+                        padding: 11px;
 
                         button {
-                            font-size: 10px;
+                            font-size: 15px;
                         }
                     }
                 }
@@ -430,12 +430,17 @@
                 font-size: 35px !important;
             }
 
+
             .arrival-img {
                 img {
                     width: 38% !important;
                 }
             }
         }
+    }
+
+    .author {
+        display: block !important;
     }
 
     #successes {
@@ -1045,11 +1050,27 @@
 
             .product-count {
                 .add-card {
+                    margin-top: -30px;
                     .add-btn-first {
                         padding: 3%;
                     }
 
                 }
+
+                .add-wishlist {
+                    position: relative;
+                    top: 40px;
+                    right: 190px;
+                    .add-btn-first {
+                        padding: 5%;
+
+                    }
+                }
+
+            }
+
+            .product-meta{
+                margin-top: 60px;
             }
 
             .tab-menu {
@@ -1079,6 +1100,12 @@
     }
 
 
+    //forgot password
+
+    #forgot-form {
+        margin-top: 100px !important;
+        padding: 0px !important;
+    }
 
 }
 
@@ -1098,6 +1125,11 @@
             .icons {
                 right: 60px !important;
                 gap: 15px !important;
+
+                .log-reg {
+                    right: 35px;
+                    top: 34px;
+                }
 
                 a {
                     i {
@@ -1172,10 +1204,10 @@
         .product-cards {
             .product-card {
                 .product-img-hover {
-                    height: 65%;
+                    height: 80%;
 
                     .add-btn-first {
-                        padding: 0px;
+                        padding: 6px;
 
                         button {
                             font-size: 10px;
@@ -1869,6 +1901,8 @@
             padding-left: 0px;
             margin-top: 30px;
 
+
+
             .product-count {
                 .add-card {
                     .add-btn-first {
@@ -1888,7 +1922,16 @@
                 }
             }
 
+
+
         }
+    }
+
+    //forgot password
+
+    #forgot-form {
+        margin-top: 130px !important;
+        padding: 0px !important;
     }
 
 }

@@ -143,14 +143,31 @@ body {
 
         i {
             transition: 0.3s;
+
             &:hover {
                 color: #b97a56 !important;
                 transition: 0.3s;
             }
         }
 
+        span{
+            position: relative;
+            right: 22px;
+            bottom: 18px;
+            color: #f3995e;;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: math;
+        }
+
+
     }
+
+
 }
+
+
+
 
 .search-input {
     display: flex;
@@ -408,6 +425,14 @@ body {
             opacity: 0;
             transition: 0.5s;
 
+            i {
+                position: absolute;
+                right: 17px;
+                top: 17px;
+                font-size: 20px;
+                color: #e1a385;
+            }
+
             .add-btn-first {
                 position: absolute;
                 left: 18%;
@@ -508,67 +533,6 @@ body {
 
     .banner-small-img {
         padding: 0 0 10% 0;
-
-        .first-bnr-img-text1 {
-            font-family: Alex Brush;
-            position: absolute;
-            top: 4%;
-            margin-left: 2%;
-            font-size: 40px;
-        }
-
-        .first-bnr-img-text2 {
-
-            position: absolute;
-            font-family: serif;
-            top: 14%;
-            margin-left: 2%;
-            font-size: 17px;
-            color: #797575d6;
-            font-weight: 600;
-
-        }
-
-        .second-bnr-img-text1 {
-            font-family: Alex Brush;
-            position: absolute;
-            top: 56%;
-            right: 23%;
-            font-size: 37px;
-        }
-
-        .bnr-img-logo {
-            position: absolute;
-            bottom: 26%;
-            right: 23%;
-        }
-
-        span {
-            font-family: inherit;
-            position: absolute;
-            bottom: 16%;
-            right: 25%;
-            font-weight: 500;
-            font-size: 13px;
-        }
-
-        .last-bnr-img-text1 {
-            font-family: Alex Brush;
-            position: absolute;
-            top: 54%;
-            right: 10%;
-            font-size: 40px;
-        }
-
-        .last-bnr-img-text2 {
-            position: absolute;
-            font-family: serif;
-            bottom: 28%;
-            right: 12%;
-            font-size: 17px;
-            color: rgba(121, 117, 117, 0.8392156863);
-            font-weight: 600;
-        }
     }
 
 }
@@ -895,9 +859,11 @@ body {
             align-items: baseline;
 
             .subscribe-btn {
-                input {
+                button {
+                    width: 160px;
                     height: 60px;
-                    width: 150px;
+                    border: none;
+                    font-size: 17px;
                 }
             }
 
@@ -908,6 +874,8 @@ body {
                     width: 350px;
                     border: 2px solid white;
                     background-color: transparent;
+                    outline: none;
+                    caret-color: white;
 
                     &::placeholder {
                         color: white !important;
@@ -970,7 +938,8 @@ body {
                 a {
                     color: #909090;
                     text-decoration: none;
-                    &:hover{
+
+                    &:hover {
                         color: #b97a56 !important;
                         transition: 0.6s;
                     }
@@ -1003,7 +972,8 @@ body {
                     color: #909090;
                     text-decoration: none;
                     margin-left: 10px;
-                    &:hover{
+
+                    &:hover {
                         color: #b97a56 !important;
                         transition: 0.6s;
                     }
@@ -1013,17 +983,18 @@ body {
                     display: flex;
                     justify-content: revert;
                     margin-top: 10px;
-                    li{
-                        a{
-                            i{
-                                &:hover{
+
+                    li {
+                        a {
+                            i {
+                                &:hover {
                                     color: #b97a56 !important;
                                     transition: 0.6s;
                                 }
                             }
                         }
                     }
-                    
+
 
                 }
             }

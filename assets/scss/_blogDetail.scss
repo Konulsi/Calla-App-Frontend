@@ -339,6 +339,7 @@ body {
             border: 1px solid rgba(128, 128, 128, 0.3803921569);
             padding: 20px;
             font-size: 20px;
+            caret-color: #e1a385;
 
             &::placeholder {
                 font-size: 15px !important;
@@ -357,7 +358,7 @@ body {
                 border: 1px solid rgb(128 128 128 / 35%);
                 outline: none;
                 width: 100%;
-
+                caret-color: #e1a385;
                 padding: 20px;
 
                 &::placeholder {

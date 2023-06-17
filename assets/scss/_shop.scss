@@ -76,6 +76,14 @@
             width: 94%;
             opacity: 0;
             transition: 0.5s;
+            
+            i{
+                position: absolute;
+                right: 17px;
+                top: 17px;
+                font-size: 20px;
+                color: #e1a385;
+            }
 
             .add-btn-first {
                 position: absolute;
@@ -255,6 +263,44 @@
         }
 
         .categories {
+            margin-top: 10px;
+
+            ul {
+                list-style: none;
+                padding-left: 0rem;
+                line-height: 30px;
+
+                li {
+                    a {
+                        color: #7b7777ed;
+                        transition: 0.6s;
+                        text-decoration: none;
+
+                        &:hover {
+                            transition: 0.6s;
+                            color: #b97a56;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .brand {
+        padding: 25px 0px 0px 18px;
+        font-family: "Crimson Text";
+        font-weight: 700;
+        letter-spacing: .1em;
+
+        .brand-header {
+            h6 {
+                font-weight: bold;
+            }
+        }
+
+        .brands {
             margin-top: 10px;
 
             ul {
