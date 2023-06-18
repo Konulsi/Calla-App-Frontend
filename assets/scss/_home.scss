@@ -141,6 +141,7 @@ body {
         justify-content: space-evenly;
         cursor: pointer;
         position: relative;
+
         i {
             transition: 0.3s;
 
@@ -150,17 +151,18 @@ body {
             }
         }
 
-        .basket-count{
+        .basket-count {
             position: absolute;
             right: 22px;
             bottom: 10px;
-            color: #f3995e;;
+            color: #f3995e;
+            ;
             font-size: 18px;
             font-weight: 600;
             font-family: math;
         }
 
-        .wishlist-count{
+        .wishlist-count {
             position: absolute;
             right: 70px;
             bottom: 10px;
@@ -229,13 +231,38 @@ body {
     background-color: white;
     transition: all 1s;
 
+    .right-icons {
+        .icons {
+            .basket-count {
+                position: absolute;
+                right: -9px;
+                bottom: 13px;
+                color: #f3995e;
+                ;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: math;
+            }
+
+            .wishlist-count {
+                position: absolute;
+                right: 19px;
+                bottom: 13px;
+                color: #f3995e;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: math;
+            }
+        }
+    }
+
     .hamburger-icon {
         cursor: pointer;
 
         i {
             position: relative;
-            top: 40px;
-            left: 30px;
+            right: 150px;
+            top: 30px;
             font-size: 20px;
             color: #b97a56;
         }
@@ -257,7 +284,7 @@ body {
             flex-direction: column;
             justify-content: space-evenly;
             list-style: none;
-            padding-left: 50px;
+            text-align: left;
 
             a {
                 text-decoration: none;

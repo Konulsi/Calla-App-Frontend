@@ -3,7 +3,8 @@
     .responsive-navbar {
         .hamburger-icon {
             i {
-                top: 30px !important;
+                // top: 30px !important;
+                // right: 155px !important;
             }
         }
 
@@ -76,6 +77,8 @@
                 outline: none !important;
                 border: none !important;
                 margin: 3px 0 0 25px !important;
+                display: flex;
+                width: 73%;
             }
 
             i {
@@ -594,6 +597,9 @@
 
         .store-name {
             margin-top: 50px !important;
+            h4{
+                text-align: left;
+            }
         }
 
         .store-location {
@@ -604,6 +610,29 @@
             margin-top: 0px !important;
         }
     }
+
+
+    #content-input{
+        .inputs-header{
+            .inputs-title{
+                h3{
+                    font-size: 30px;
+                }
+            }
+        }
+        .inputs {
+            display: block;
+            padding: 0px;
+            input{
+                width: 300px;
+                margin-top: 10px;
+            }
+        }
+
+        .text-area{
+            padding: 0 14px 0 14px;
+        }
+    } 
 
 
     //wishlist
@@ -1116,15 +1145,41 @@
     .responsive-navbar {
         .hamburger-icon {
             i {
-                left: 54px !important;
+                right: 315px;
+                position: relative;
                 font-size: 25px !important;
             }
+        }
+
+        .hamburger-menu-list{
+            padding-left: 23px;
         }
 
         .right-icons {
             .icons {
                 right: 60px !important;
                 gap: 15px !important;
+
+                .basket-count {
+                    position: absolute;
+                    right: -9px;
+                    bottom: 13px;
+                    color: #f3995e;
+                    ;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: math;
+                }
+    
+                .wishlist-count {
+                    position: absolute;
+                    right: 27px;
+                    bottom: 13px;
+                    color: #f3995e;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: math;
+                }
 
                 .log-reg {
                     right: 35px;

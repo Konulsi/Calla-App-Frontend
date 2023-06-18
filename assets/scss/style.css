@@ -177,13 +177,31 @@ body {
   background-color: white;
   transition: all 1s;
 }
+.responsive-navbar .right-icons .icons .basket-count {
+  position: absolute;
+  right: -9px;
+  bottom: 13px;
+  color: #f3995e;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: math;
+}
+.responsive-navbar .right-icons .icons .wishlist-count {
+  position: absolute;
+  right: 19px;
+  bottom: 13px;
+  color: #f3995e;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: math;
+}
 .responsive-navbar .hamburger-icon {
   cursor: pointer;
 }
 .responsive-navbar .hamburger-icon i {
   position: relative;
-  top: 40px;
-  left: 30px;
+  right: 150px;
+  top: 30px;
   font-size: 20px;
   color: #b97a56;
 }
@@ -201,7 +219,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   list-style: none;
-  padding-left: 50px;
+  text-align: left;
 }
 .responsive-navbar .hamburger-menu-list .nav-menu a {
   text-decoration: none;
@@ -1825,7 +1843,7 @@ body {
 }
 
 #contact-content .contact-right {
-  padding: 40px;
+  padding: 0 50px 0 50px;
 }
 #contact-content .contact-right .contact-right-header {
   text-align: center;
@@ -1848,6 +1866,7 @@ body {
 }
 #contact-content .contact-right .store-location {
   margin-top: 30px;
+  text-align: left;
 }
 #contact-content .contact-right .store-location ul {
   line-height: 30px;
@@ -1869,6 +1888,9 @@ body {
   font-weight: 300;
   color: rgba(103, 103, 103, 0.6588235294);
 }
+#contact-content .contact-right .store-social {
+  text-align: left;
+}
 #contact-content .contact-right .store-social .social {
   display: flex;
   justify-content: space-between;
@@ -1876,6 +1898,72 @@ body {
 }
 #contact-content .contact-right .store-social .social li:hover {
   color: #b97a56;
+}
+
+#content-input .inputs-header {
+  margin-top: 130px;
+}
+#content-input .inputs-header .inputs-title h3 {
+  font-family: "Crimson Text";
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 34px;
+}
+#content-input .inputs {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+}
+#content-input .inputs input {
+  width: 400px;
+  height: 55px;
+  border-color: rgba(128, 128, 128, 0.168627451);
+  padding-left: 20px;
+  outline: none;
+}
+#content-input .inputs input::-moz-placeholder {
+  color: rgb(165, 165, 165) !important;
+  font-family: "Crimson Text";
+  font-size: 15px;
+}
+#content-input .inputs input::placeholder {
+  color: rgb(165, 165, 165) !important;
+  font-family: "Crimson Text";
+  font-size: 15px;
+}
+#content-input .text-area {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+}
+#content-input .text-area textarea {
+  width: 100%;
+  height: 224px;
+  padding: 25px;
+  border-color: rgba(128, 128, 128, 0.3411764706);
+}
+#content-input .text-area textarea::-moz-placeholder {
+  color: rgb(165, 165, 165) !important;
+  font-family: "Crimson Text";
+  font-size: 15px;
+}
+#content-input .text-area textarea::placeholder {
+  color: rgb(165, 165, 165) !important;
+  font-family: "Crimson Text";
+  font-size: 15px;
+}
+#content-input .subscribe-button {
+  margin-top: 40px;
+}
+#content-input .subscribe-button button {
+  width: 180px;
+  height: 60px;
+  border: none;
+  color: white;
+  background-color: #016766;
 }
 
 #brands {
@@ -3139,9 +3227,6 @@ h1, a {
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
-  .responsive-navbar .hamburger-icon i {
-    top: 30px !important;
-  }
   .responsive-navbar .logo {
     height: 50px;
   }
@@ -3198,6 +3283,8 @@ h1, a {
     outline: none !important;
     border: none !important;
     margin: 3px 0 0 25px !important;
+    display: flex;
+    width: 73%;
   }
   .responsive-navbar .search i {
     color: rgba(138, 138, 138, 0.7411764706);
@@ -3533,11 +3620,28 @@ h1, a {
   #contact-content .store-name {
     margin-top: 50px !important;
   }
+  #contact-content .store-name h4 {
+    text-align: left;
+  }
   #contact-content .store-location {
     margin-top: 0px !important;
   }
   #contact-content .store-social {
     margin-top: 0px !important;
+  }
+  #content-input .inputs-header .inputs-title h3 {
+    font-size: 30px;
+  }
+  #content-input .inputs {
+    display: block;
+    padding: 0px;
+  }
+  #content-input .inputs input {
+    width: 300px;
+    margin-top: 10px;
+  }
+  #content-input .text-area {
+    padding: 0 14px 0 14px;
   }
   #wishlist-header-img .wishlist-bg-img {
     height: 170px !important;
@@ -3849,12 +3953,34 @@ h1, a {
 }
 @media (min-width: 750px) and (max-width: 1200px) {
   .responsive-navbar .hamburger-icon i {
-    left: 54px !important;
+    right: 315px;
+    position: relative;
     font-size: 25px !important;
+  }
+  .responsive-navbar .hamburger-menu-list {
+    padding-left: 23px;
   }
   .responsive-navbar .right-icons .icons {
     right: 60px !important;
     gap: 15px !important;
+  }
+  .responsive-navbar .right-icons .icons .basket-count {
+    position: absolute;
+    right: -9px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
+  }
+  .responsive-navbar .right-icons .icons .wishlist-count {
+    position: absolute;
+    right: 27px;
+    bottom: 13px;
+    color: #f3995e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: math;
   }
   .responsive-navbar .right-icons .icons .log-reg {
     right: 35px;
