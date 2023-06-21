@@ -42,7 +42,7 @@ body {
 
     .right {
         padding-left: 50px;
-
+        text-align: left;
         .product-name {
             h1 {
                 display: block;
@@ -388,6 +388,7 @@ body {
 
 #related {
     .related-title{
+        text-align: left ;
         h4{
             display: block;
             margin: 150px 0 30px;

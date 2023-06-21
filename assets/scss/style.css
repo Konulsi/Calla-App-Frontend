@@ -705,6 +705,7 @@ body {
 }
 #footer .footer-first-list {
   padding: 20% 0 30% 0;
+  text-align: left;
 }
 #footer .footer-first-list .footer-logo {
   padding: 5%;
@@ -718,6 +719,7 @@ body {
 }
 #footer .footer-second-list {
   padding: 20% 0 30% 0;
+  text-align: left;
 }
 #footer .footer-second-list .quick-links {
   padding: 5%;
@@ -741,6 +743,7 @@ body {
 }
 #footer .footer-third-list {
   padding: 21% 0 30% 0;
+  text-align: left;
 }
 #footer .footer-third-list .find-store {
   padding: 4%;
@@ -833,6 +836,9 @@ body {
 
 #blog-post-img .mySwiper {
   height: 450px;
+}
+#blog-post-img .blog-post-text {
+  text-align: left;
 }
 #blog-post-img .blog-post-text .post-info-top {
   justify-content: space-between;
@@ -1291,6 +1297,7 @@ body {
   font-family: "Crimson Text";
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .category .category-header h6 {
   font-weight: bold;
@@ -1317,6 +1324,7 @@ body {
   font-family: "Crimson Text";
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .brand .brand-header h6 {
   font-weight: bold;
@@ -1343,6 +1351,7 @@ body {
   font-family: "Crimson Text";
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .color .color-header h6 {
   font-weight: bold;
@@ -1368,6 +1377,7 @@ body {
   font-family: "Crimson Text";
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .size .size-header h6 {
   font-weight: bold;
@@ -1393,6 +1403,7 @@ body {
   font-family: "Crimson Text";
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .tag .tag-header h6 {
   font-weight: bold;
@@ -1423,6 +1434,7 @@ body {
   font-family: "Crimson Text";
   padding: 12px;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 #shop-content-header .top-products .top-header h6 {
   font-weight: bold;
@@ -2294,6 +2306,7 @@ body {
 }
 #product-info .right {
   padding-left: 50px;
+  text-align: left;
 }
 #product-info .right .product-name h1 {
   display: block;
@@ -2557,6 +2570,9 @@ body {
   transition: 0.7s;
 }
 
+#related .related-title {
+  text-align: left;
+}
 #related .related-title h4 {
   display: block;
   margin: 150px 0 30px;
@@ -2674,6 +2690,7 @@ body {
 }
 #blog-info .blog-post-text {
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .blog-post-text .post-info-top {
   justify-content: space-between !important;
@@ -2765,6 +2782,9 @@ body {
 #blog-info .blog-post-text .post-readmore-btn a:hover {
   color: #b97a56;
 }
+#blog-info .related-blog-header {
+  text-align: left;
+}
 #blog-info .related-blog-header h2 {
   display: block;
   margin: 70px 0 40px;
@@ -2782,6 +2802,9 @@ body {
 #blog-info .related-blog .single-blog-main-img img:hover {
   transform: scale(1.1);
   transition: 0.6s;
+}
+#blog-info .related-blog .post-title {
+  text-align: left !important;
 }
 #blog-info .related-blog .post-title h3 {
   font-family: "Crimson Text";
@@ -2834,6 +2857,7 @@ body {
   text-transform: uppercase;
   color: #2e2e2e;
   transition: 0.6s;
+  text-align: left !important;
 }
 #blog-info .product-rewiev:hover {
   transition: 0.6s;
@@ -2845,6 +2869,7 @@ body {
 }
 #blog-info .commentlist .review {
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .commentlist .review .comment_container {
   display: flex;
@@ -2887,6 +2912,7 @@ body {
 }
 #blog-info .comment {
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .comment .comment-header {
   font-family: "Crimson Text";
@@ -2985,6 +3011,7 @@ body {
 }
 #blog-info .right .lates-posts {
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .right .lates-posts h4 {
   font-family: "Crimson Text";
@@ -3037,6 +3064,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.1em;
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .right .category .category-header h6 {
   font-weight: bold;
@@ -3064,6 +3092,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.1em;
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .right .tag .tag-header h6 {
   font-weight: bold;
@@ -3093,6 +3122,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.1em;
   margin-top: 50px;
+  text-align: left !important;
 }
 #blog-info .right .instagram .instagram-header h6 {
   font-weight: bold;
@@ -3875,7 +3905,7 @@ h1, a {
     font-size: 26px;
   }
   #blog-info .blog-post-text .post-info-top {
-    width: 312px !important;
+    width: auto !important;
   }
   #blog-info .blog-post-text .blog-social {
     justify-content: start;
@@ -3886,6 +3916,9 @@ h1, a {
   #blog-info .related-blog .blog-card {
     margin-top: 50px;
   }
+  #blog-info .related-blog .blog-card .post-title {
+    text-align: left !important;
+  }
   #blog-info .product-rewiev {
     margin: 80px 0 0px;
   }
@@ -3894,6 +3927,9 @@ h1, a {
   }
   #blog-info .commentlist .comment_container .comment-text {
     margin-left: 0px !important;
+  }
+  #blog-info .commentlist .comment_container .comment-text .comment-info {
+    width: auto !important;
   }
   #blog-info .submit-button {
     margin: 25px 20px 15px 0px !important;
@@ -3916,6 +3952,7 @@ h1, a {
   #product-info .right {
     padding-left: 0px;
     margin-top: 30px;
+    text-align: left;
   }
   #product-info .right .product-count .add-card {
     margin-top: -30px;
@@ -4384,6 +4421,9 @@ h1, a {
   #blog-info {
     margin-top: 70px;
     margin-bottom: 70px;
+  }
+  #blog-info .blog-post-text .post-info-top {
+    width: 340px !important;
   }
   #blog-info .right {
     padding-left: 0px;

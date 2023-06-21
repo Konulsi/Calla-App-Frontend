@@ -597,7 +597,8 @@
 
         .store-name {
             margin-top: 50px !important;
-            h4{
+
+            h4 {
                 text-align: left;
             }
         }
@@ -612,27 +613,29 @@
     }
 
 
-    #content-input{
-        .inputs-header{
-            .inputs-title{
-                h3{
+    #content-input {
+        .inputs-header {
+            .inputs-title {
+                h3 {
                     font-size: 30px;
                 }
             }
         }
+
         .inputs {
             display: block;
             padding: 0px;
-            input{
+
+            input {
                 width: 300px;
                 margin-top: 10px;
             }
         }
 
-        .text-area{
+        .text-area {
             padding: 0 14px 0 14px;
         }
-    } 
+    }
 
 
     //wishlist
@@ -1004,13 +1007,14 @@
             }
 
             .post-info-top {
-                width: 312px !important;
+                width: auto !important;
             }
 
             .blog-social {
                 justify-content: start;
             }
         }
+
 
         .related-blog-header {
             h2 {
@@ -1022,6 +1026,9 @@
             .blog-card {
                 margin-top: 50px;
 
+                .post-title {
+                    text-align: left !important;
+                }
             }
 
         }
@@ -1030,12 +1037,19 @@
             margin: 80px 0 0px;
         }
 
+
+
         .commentlist {
             .comment_container {
                 display: block !important;
 
                 .comment-text {
                     margin-left: 0px !important;
+
+                    .comment-info {
+                        width: auto !important;
+                    }
+
                 }
 
             }
@@ -1076,10 +1090,11 @@
 
             padding-left: 0px;
             margin-top: 30px;
-
+            text-align: left;
             .product-count {
                 .add-card {
                     margin-top: -30px;
+
                     .add-btn-first {
                         padding: 3%;
                     }
@@ -1090,6 +1105,7 @@
                     position: relative;
                     top: 40px;
                     right: 190px;
+
                     .add-btn-first {
                         padding: 5%;
 
@@ -1098,7 +1114,7 @@
 
             }
 
-            .product-meta{
+            .product-meta {
                 margin-top: 60px;
             }
 
@@ -1151,7 +1167,7 @@
             }
         }
 
-        .hamburger-menu-list{
+        .hamburger-menu-list {
             padding-left: 23px;
         }
 
@@ -1170,7 +1186,7 @@
                     font-weight: 600;
                     font-family: math;
                 }
-    
+
                 .wishlist-count {
                     position: absolute;
                     right: 27px;
@@ -1903,6 +1919,11 @@
         margin-top: 70px;
         margin-bottom: 70px;
 
+      .blog-post-text {
+        .post-info-top {
+            width: 340px !important;
+        }
+      }
         .right {
             padding-left: 0px;
 
