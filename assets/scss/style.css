@@ -922,6 +922,7 @@ body {
 #blog-post-img .right {
   padding-left: 0px;
   margin-top: 50px;
+  text-align: left;
 }
 #blog-post-img .right .blog-author {
   border: 1px solid #b97a56;
