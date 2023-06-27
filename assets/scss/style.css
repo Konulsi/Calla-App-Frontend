@@ -843,7 +843,7 @@ body {
 #blog-post-img .blog-post-text .post-info-top {
   justify-content: space-between;
   display: flex;
-  width: 340px;
+  width: 240px;
 }
 #blog-post-img .blog-post-text .post-info-top .post-info-author span {
   color: #b97a56;
@@ -868,20 +868,6 @@ body {
 }
 #blog-post-img .blog-post-text .post-info-top .post-date span:hover {
   color: #b97a56;
-}
-#blog-post-img .blog-post-text .post-info-top .post-date span::after {
-  content: " /";
-}
-#blog-post-img .blog-post-text .post-info-top .post-info-category span {
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #b97a56;
-  transition: 0.3s;
-}
-#blog-post-img .blog-post-text .post-info-top .post-info-category span:hover {
-  color: black;
 }
 #blog-post-img .blog-post-text .post-title h3 {
   font-family: "Crimson Text";
